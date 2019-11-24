@@ -12,7 +12,7 @@
           >Farming, Business parks, University, Colleges, Schools, Hospitals and more...</p>
           <p
             class="mt-2 leading-relaxed"
-          >With a decent roof or plot of land and a long-term intention to stay in their premises for 10+ years. Ideally the business should own the freehold of their premises, or have a long-lease over the property.</p>
+          >With a decent roof or plot of land and a long-term intention to stay SOLAR makes good sense. Ideally the you should own the freehold of your premises, or have a long-lease over the property.</p>
           <p
             class="mt-2 leading-relaxed"
           >The lifetime cost per kWh of solar electricity is now 5.5p per kWh... this compares to 10-12p for electricity purchased from the grid.</p>
