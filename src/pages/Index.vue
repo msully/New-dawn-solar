@@ -51,12 +51,11 @@
     <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-24">
       <div class="flex flex-col lg:flex-row lg:-mx-8">
         <div class="w-full lg:w-1/2 lg:px-8">
-          <h2 class="text-3xl leading-tight font-bold mt-4">What is Solar Energy and How Do Solar Panels Work?</h2>
+          <h2 class="text-3xl leading-tight font-bold mt-4">How Does Solar Energy Work?</h2>
           <p class="mt-2 leading-relaxed">
-            Solar energy works by capturing the sun’s energy and turning it into electricity for your home or business.
-            Our sun is a natural nuclear reactor. It releases tiny packets of energy called photons, which travel the 93 million miles from the sun to Earth in about 8.5 minutes. 
+            Considered a promising energy source for decades, solar panels can be found on everything from rooftops and roadside signs to stadiums and spacecrafts. Solar energy works by taking energy from the sun and changing it into electricity for homes and businesses.
           </p>
-          <p class="mt-2 leading-relaxed">Every hour, enough photons impact our planet to generate enough solar energy to theoretically satisfy global energy needs for an entire year.
+          <p class="mt-2 leading-relaxed">Once solar panels are installed on your roof and begin to create energy, there are a few steps required to turn it into energy your home or business can use. As the sun hits the solar panels, they generate direct current (DC) electricity, where the electrons flow around a circuit in one direction. In order for your home to use this energy, it must be converted from DC electricity to alternating current (AC) electricity, where the electrons are pushed and pulled. When you have solar panels installed on your home, you will also have a solar inverter installed. The solar inverter changes the DC output of the solar panels into AC electricity that your home can use.
           </p>
         </div>
 
