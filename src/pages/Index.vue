@@ -55,7 +55,8 @@
           <p class="mt-2 leading-relaxed">
             Considered a promising energy source for decades, solar panels can be found on everything from rooftops and roadside signs to stadiums and spacecrafts. Solar energy works by taking energy from the sun and changing it into electricity for homes and businesses.
           </p>
-          <p class="mt-2 leading-relaxed">Once solar panels are installed on your roof and begin to create energy, there are a few steps required to turn it into energy your home or business can use. As the sun hits the solar panels, they generate direct current (DC) electricity, where the electrons flow around a circuit in one direction. In order for your home to use this energy, it must be converted from DC electricity to alternating current (AC) electricity, where the electrons are pushed and pulled. When you have solar panels installed on your home, you will also have a solar inverter installed. The solar inverter changes the DC output of the solar panels into AC electricity that your home can use.
+          <p class="mt-2 leading-relaxed">Once solar panels are installed on your roof and begin to create energy, there are a few steps required to turn it into energy your home or business can use. As the sun hits the solar panels, they generate direct current (DC) electricity, where the electrons flow around a circuit in one direction. In order for your home to use this energy, it must be converted from DC electricity to alternating current (AC) electricity, where the electrons are pushed and pulled.</p> 
+          <p class="mt-2 leading-relaxed">When you have solar panels installed on your home, you will also have a solar inverter installed. The solar inverter changes the DC output of the solar panels into AC electricity that your home can use.
           </p>
         </div>
 
