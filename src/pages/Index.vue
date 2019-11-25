@@ -133,10 +133,10 @@
         <p class="text-gray-600 mt-2">We have formed strategic partnerships with several local and international suppliers. In doing so we ensure a superior product, unsurpassed service capability, excellent warranties and spare parts availability.</p>
         
         <ul class="flex items-center pt-16">
-          <li class="px-4"><img class="w-32" src="../images/SolarEdge_logo.png" alt="Partner company SolarEdge"></li>
-          <li class="px-4"><img class="w-40" src="../images/canadianSolar_logo.png" alt="Partner company CanadianSolar "></li>
-          <li class="px-4"><img class="w-24" src="../images/SMA_logo.svg" alt="Partner company SMA"></li>
-          <li class="px-4"><img class="w-24" src="../images/mecer_logo.png" alt="Partner company Mecer"></li>
+          <li class="px-1"><img class="w-32" src="../images/SolarEdge_logo.png" alt="Partner company SolarEdge"></li>
+          <li class="px-1"><img class="w-40" src="../images/canadianSolar_logo.png" alt="Partner company CanadianSolar "></li>
+          <li class="px-1"><img class="w-24" src="../images/SMA_logo.svg" alt="Partner company SMA"></li>
+          <li class="px-1"><img class="w-24" src="../images/mecer_logo.png" alt="Partner company Mecer"></li>
         </ul>
       </div>
     </section>
