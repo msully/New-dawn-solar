@@ -7,7 +7,7 @@
         <img src="../images/solar_dawn.jpeg" alt="Sun rising over a solar installation" class="w-full h-full object-cover opacity-75" />
       </div>
 
-      <div class="lg:w-3/4 relative z-10 h-100 lg:mt-16">
+      <div class="lg:w-3/4 relative z-10 h-100 lg:mt-1">
         <div>
           <h1
             class="text-white text-4xl md:text-5xl xl:text-6xl font-bold leading-tight"
@@ -23,7 +23,7 @@
       </div>
     </section>
     <section class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-32">
-      <div class="md:flex md:flex-wrap text-center md:-mx-4 md:-my-64">
+      <div class="md:flex md:flex-wrap text-center md:-mx-4 -mt-48 mb-2 md:-mt-64">
         <div class="md:w-1/2 md:px-4 lg:w-1/3">
           <div class="bg-white rounded-lg border border-gray-300 p-8">
             <img src="../images/icons/noun_Tractor_1640247.svg" alt="Farming sector" class="h-20 mx-auto" />
