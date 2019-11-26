@@ -167,7 +167,7 @@ export default {
     Hero
   },
   metaInfo: {
-    title: "Hello, world!"
+    title: "New Dawn Solar"
   }
 };
 </script>
