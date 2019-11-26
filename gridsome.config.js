@@ -12,7 +12,9 @@ const postcssPlugins = [tailwind()];
 if (process.env.NODE_ENV === "production") postcssPlugins.push(purgecss());
 
 module.exports = {
-  siteName: "Gridsome",
+  siteName: "Solar Solutions for Farming, Business and Homes ",
+  siteDescription:
+    "Professional, fast, and reliable. Contact us with any questions you may have about installations and/or solar equipment pricing.",
   plugins: [],
   css: {
     loaderOptions: {
