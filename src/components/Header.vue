@@ -28,7 +28,7 @@
 
     <div class="flex flex-wrap items-center justify-between py-6">
       <div class="w-1/2 md:w-auto">
-        <a href="index.html" class="text-white font-bold text-2xl">New Dawn Solar</a>
+      <img  class="w-64" href="index.html" src="../images/newdawn-logo-white.svg" alt="New dawn solar logo">
       </div>
 
       <label for="menu-toggle" class="pointer-cursor md:hidden block">
@@ -50,15 +50,16 @@
         <nav
           class="w-full bg-white md:bg-transparent rounded shadow-lg px-6 py-4 mt-4 text-center md:p-0 md:mt-0 md:shadow-none"
         >
-          <ul class="md:flex items-center">
-           
+          <ul class="md:flex items-center justify-between">
+            
             <li class="md:ml-4">
-              <a class="py-2 inline-block md:text-white md:px-2 font-semibold" href="#">How it works</a>
+              <a class="py-2 inline-block md:text-white md:px-2 font-semibold" href="#">Sectors</a>
             </li>
             <li class="md:ml-4">
               <a class="py-2 inline-block md:text-white md:px-2 font-semibold" href="#">Projects</a>
             </li>
-             <li>
+            
+             <li class="md:ml-4">
               <a
                 class="py-2 inline-block md:text-white md:hidden lg:block font-semibold"
                 href="#"

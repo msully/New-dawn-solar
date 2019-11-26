@@ -87,9 +87,7 @@
       <div class="md:flex mt-12 md:-mx-4">
         <div class="md:px-4 md:w-1/2 xl:w-1/4">
           <div class="bg-white rounded border border-gray-300">
-            <div class="w-full h-48 overflow-hidden bg-gray-300">
-              <img src="../images/dairy under solar.jpg" alt="">
-            </div>
+              <img class="w-full h-48 object-cover" src="../images/dairy under solar.jpg" alt="Dairy under solar">
             <div class="p-4">
               <div class="flex items-center text-sm">
                 <span class="text-teal-500 font-semibold">Farming</span>
@@ -106,9 +104,7 @@
 
         <div class="md:px-4 md:w-1/2 xl:w-1/4 mt-4 md:mt-0">
           <div class="bg-white rounded border border-gray-300">
-            <div class="w-full h-48 overflow-hidden bg-gray-300">
-              <img src="../images/Sola-Future.jpg" alt="">
-            </div>
+              <img class="w-full h-48 object-cover" src="../images/Sola-Future.jpg" alt="">
             <div class="p-4">
               <div class="flex items-center text-sm">
                 <span class="text-teal-500 font-semibold">Business</span>
@@ -132,11 +128,11 @@
         <h2 class="text-3xl leading-tight font-bold">Strategic Partnerships</h2>
         <p class="text-gray-600 mt-2">We have formed strategic partnerships with several local and international suppliers. In doing so we ensure a superior product, unsurpassed service capability, excellent warranties and spare parts availability.</p>
         
-        <ul class="flex items-center pt-16">
-          <li class="px-1"><img class="w-32" src="../images/SolarEdge_logo.png" alt="Partner company SolarEdge"></li>
-          <li class="px-1"><img class="w-40" src="../images/canadianSolar_logo.png" alt="Partner company CanadianSolar "></li>
-          <li class="px-1"><img class="w-24" src="../images/SMA_logo.svg" alt="Partner company SMA"></li>
-          <li class="px-1"><img class="w-24" src="../images/mecer_logo.png" alt="Partner company Mecer"></li>
+        <ul class="flex flex-wrap justify-center align-center content-between pt-8">
+          <li><img class="p-8 w-56" src="../images/SolarEdge_logo.png" alt="Partner company SolarEdge"></li>
+          <li><img class="p-8 w-56" src="../images/canadianSolar_logo.png" alt="Partner company CanadianSolar "></li>
+          <li><img class="p-8 w-48" src="../images/SMA_logo.svg" alt="Partner company SMA"></li>
+          <li><img class="p-8 w-56" src="../images/mecer_logo.png" alt="Partner company Mecer"></li>
         </ul>
       </div>
     </section>

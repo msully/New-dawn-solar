@@ -4,23 +4,12 @@
       <div class="flex flex-col md:flex-row">
         <div class="w-full lg:w-2/4 lg:mx-4 lg:pr-8">
           <h3 class="font-bold text-2xl">New Dawn Solar</h3>
-          <p class="text-gray-400">Professional, fast, and reliable. Contact us with any questions you may have about installations and/or solar equipment pricing. We are open Monday - Friday : 8am - 5pm, but you can reach us by email at any time and we will get back to you promptly.</p>
-
-          <form class="flex items-center mt-6">
-            <div class="w-full">
-              <label class="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2" for="grid-last-name">
-                Get a free consultation
-              </label>
-              <div class="relative">
-                <input
-                  class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-4 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                  type="email" placeholder="Enter Your Email Address">
-
-                <button type="submit"
-                  class="bg-teal-500 hover:bg-teal-400 text-white px-4 py-2 text-sm font-bold rounded absolute top-0 right-0 my-2 mr-2">Subscribe</button>
-              </div>
-            </div>
-          </form>
+          <p class="text-gray-400">Professional, fast, and reliable. Contact us with any questions you may have about installations and/or solar equipment pricing.
+            </p>
+            <p class="text-gray-400 mt-2">We are open Monday - Friday : 8am - 5pm, but you can reach us by email at any time and we will get back to you promptly.</p>
+          <div class="w-1/2 md:w-auto mt-6">
+            <img  class="w-64" href="index.html" src="../images/newdawn-logo-white.svg" alt="New dawn solar logo">
+          </div>
         </div>
 
         <div class="w-full lg:w-1/4 mt-8 lg:mt-0 lg:mx-4">
@@ -61,7 +50,7 @@
                     <path d="M13 7L11 7 11 13 17 13 17 11 13 11z" /></svg>
                 </span>
                 <span class="ml-3">
-                  Mon - Fri: 9:00 - 17:00<br>
+                  Mon - Fri: 8:00 - 17:00<br>
                   Closed on Weekends
                 </span>
               </a>
