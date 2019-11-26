@@ -29,7 +29,7 @@
     <section class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-16">
       <div class="md:flex md:flex-wrap text-center md:-mx-4 -mt-40 md:-mt-40">
         <div class="md:w-1/2 md:px-4 lg:w-1/3">
-          <div class="bg-white rounded-lg border border-gray-300 p-8">
+          <div class="block bg-white rounded-lg border border-gray-300 p-8">
             <div class="inline-block text-white -mt-64">
               <svg
                 role="img"
@@ -61,7 +61,10 @@
             </div>
             <h4 class="text-xl font-bold mt-4">Farming</h4>
             <p class="mt-1">Solar for farming.</p>
-            <a href="#" class="block mt-4">Read More</a>
+            <a href="/sectors/farming" class="inline-flex mt-4 items-center px-2 -mx-2 py-1 hover:text-gray-900 font-medium text-gray-600">
+              <span class="ml-3">Read More</span>
+              <svg aria-hidden="true" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10 w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+            </a>   
           </div>
         </div>
         <div class="md:w-1/2 md:px-4 mt-16 md:mt-0 lg:w-1/3">
@@ -88,19 +91,23 @@
             </div>
             <h4 class="text-xl font-bold mt-4">Commercial</h4>
             <p class="mt-1">Solar for business and commercial.</p>
-            <a href="#" class="block mt-4">Read More</a>
+            <a href="/sectors/commercial" class="inline-flex mt-4 items-center px-2 -mx-2 py-1 hover:text-gray-900 font-medium text-gray-600">
+              <span class="ml-3">Read More</span>
+              <svg aria-hidden="true" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10 w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+            </a>
           </div>
         </div>
         <div class="md:w-1/2 md:px-4 mt-16 md:mt-8 lg:mt-0 lg:w-1/3">
           <div class="bg-white rounded-lg border border-gray-300 p-8">
             <div class="inline-block text-white -mt-64">
-              <svg 
+              <svg
                 role="img"
                 title="Home owners and developers"
                 description="Solar for Developers and home owners"
                 class="fill-current border-2 w-24 h-24 bg-teal-600 p-3 rounded-full"
-                xmlns="http://www.w3.org/2000/svg" 
-                viewBox="0 0 64 80">
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 64 80"
+              >
                 <path
                   d="M48 28H34v14h14zm-2 6h-4v-4h4zm-6-4v4h-4v-4zm-4 6h4v4h-4zm6 4v-4h4v4zM26 38h2v6h-2z"
                 />
@@ -111,7 +118,10 @@
             </div>
             <h4 class="text-xl font-bold mt-4">Residetial</h4>
             <p class="mt-1">Solar for Developers and home owners</p>
-            <a href="#" class="block mt-4">Read More</a>
+            <a href="/sectors/residential" class="inline-flex mt-4 items-center px-2 -mx-2 py-1 hover:text-gray-900 font-medium text-gray-600">
+              <span class="ml-3">Read More</span>
+              <svg aria-hidden="true" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10 w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+            </a>
           </div>
         </div>
       </div>
