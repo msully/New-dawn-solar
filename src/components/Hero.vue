@@ -27,7 +27,7 @@
       </div>
     </section>
     <section class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-16">
-      <div class="md:flex md:flex-wrap text-center md:-mx-4 -mt-40 md:-mt-40">
+      <div class="md:flex md:flex-wrap text-center md:-mx-4 -mt-40 md:-mt-48">
         <div class="md:w-1/2 md:px-4 lg:w-1/3">
           <div class="block bg-white rounded-lg border border-gray-300 p-8">
             <div class="inline-block text-white -mt-64">
