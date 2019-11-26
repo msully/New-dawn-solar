@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-100">
     <section
-      class="cover bg-blue-teal-gradient relative bg-blue-600 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 overflow-hidden py-48 flex items-center min-h-screen"
+      class="cover bg-blue-teal-gradient relative bg-blue-600 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 overflow-hidden py-48 flex min-h-screen"
     >
       <div class="h-full absolute top-0 left-0 z-0">
         <img
@@ -11,7 +11,7 @@
         />
       </div>
 
-      <div class="lg:w-3/4 relative z-10 h-100 lg:mt-1">
+      <div class="lg:w-3/4 relative z-10 h-100 lg:mt-8">
         <div>
           <h1
             class="text-white text-4xl md:text-5xl xl:text-6xl font-bold leading-tight"
