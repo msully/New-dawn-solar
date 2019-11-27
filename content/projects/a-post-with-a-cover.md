@@ -5,7 +5,7 @@ published: true
 tags:
   - Markdown
   - Cover Image
-cover_image: /images/uploads/favicon.png
+cover_image: /images/uploads/dairy-under-solar.jpg
 description: >-
   Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
   Readability, however, is emphasized above all else. A Markdown-formatted
