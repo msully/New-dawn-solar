@@ -5,7 +5,7 @@ published: true
 tags:
   - tag
   - Solar
-cover_image: /images/uploads/favicon.png
+cover_image: /images/uploads/sola-future.jpg
 description: This is a description...
 ---
 This is some body text
