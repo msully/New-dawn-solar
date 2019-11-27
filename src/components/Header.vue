@@ -38,13 +38,13 @@
               <a class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800" href="/">Sectors</a>
             </li>
             <li class="md:ml-4">
-              <a class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800" href="/">Projects</a>
+              <a class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800" href="/projects">Projects</a>
             </li>
 
             <li class="md:ml-4">
               <a
                 class="py-2 inline-block md:hidden lg:block font-semibold hover:text-orange-800"
-                href="/"
+                href="/about"
               >About Us</a>
             </li>
 

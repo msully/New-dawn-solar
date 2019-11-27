@@ -18,7 +18,7 @@
           >Solar is reliable</h1>
           <p
             class="text-blue-100 text-xl md:text-2xl leading-snug mt-4"
-          >Secure reliable power with SOLAR Energy for Farming, Business and Homes.</p>
+          >Find out how we can help you secure reliable power with <strong>SOLAR Energy</strong> for Farming, Business and Homes..</p>
           <a
             href="#"
             class="px-8 py-4 bg-orange-500 hover:bg-orange-800 text-white rounded inline-block mt-8 font-semibold"
@@ -26,7 +26,7 @@
         </div>
       </div>
     </section>
-    <section class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-16">
+    <section class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-16 bg-white">
       <div class="md:flex md:flex-wrap text-center md:-mx-4 -mt-40 md:-mt-48">
         <div class="md:w-1/2 md:px-4 lg:w-1/3">
           <div class="block bg-white rounded-lg border border-gray-300 p-8">

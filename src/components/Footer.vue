@@ -88,7 +88,7 @@
 
       </div>
       <div class="w-full lg:w-1/4 mt-8 lg:mt-0 lg:mx-4">
-          <p class="text-sm text-gray-400 mt-12">© 2020 New Dawn Solar </p>
+          <p class="text-sm text-gray-400 mt-12">New Dawn Solar Copyright © {{ new Date().getFullYear() }} </p>
         </div>
     </footer>
   
