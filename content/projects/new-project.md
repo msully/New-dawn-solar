@@ -8,4 +8,4 @@ tags:
 cover_image: /images/uploads/favicon.png
 description: This is a description...
 ---
-This is some bidy text
+This is some body text
