@@ -4,7 +4,12 @@ date: 2019-01-07T00:00:00.000Z
 published: true
 tags:
   - Markdown
+<<<<<<< HEAD
 cover_image: /images/uploads/alexandr-podvalny-220262-unsplash.jpg
+=======
+  - Cover Image
+cover_image: /images/uploads/dairy-under-solar.jpg
+>>>>>>> d6f5f3fd1b83d72c8d98c3ad128d6b9268fcc2e8
 description: >-
   This card has supporting text below as a natural lead-in to additional content. 
 ---
