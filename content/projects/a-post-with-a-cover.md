@@ -2,6 +2,8 @@
 title: Card Title
 date: 2019-11-28T10:31:51.433Z
 published: true
+tags:
+  - Farming
 cover_image: /images/uploads/dairy-under-solar.jpg
 description: >-
   This card has supporting text below as a natural lead-in to additional
