@@ -30,13 +30,6 @@ module.exports = {
       options: {
         typeName: "Projects",
         path: "content/projects/*.md",
-        refs: {
-          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
-          tags: {
-            typeName: "Tag",
-            create: true
-          }
-        }
       }
     },
     {

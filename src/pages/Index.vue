@@ -134,11 +134,6 @@
         description
         cover_image
         date (format: "D, MMMM, Y")
-        tags {
-          id
-          title
-       
-        }
       }
     }
   }

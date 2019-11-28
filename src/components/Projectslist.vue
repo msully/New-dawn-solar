@@ -25,13 +25,6 @@
             />
             <div class="p-4">
               <div class="flex items-center text-sm">
-                <g-link 
-                :to="item.node.tags.path"
-                v-for="tag in item.node.tags"
-                :key="item.id"
-                class="text-teal-500 font-semibold px-2">
-                {{ tag.id }}
-                </g-link>
                 
               <span class="ml-4 text-gray-600">{{ item.node.date }}</span>
             
