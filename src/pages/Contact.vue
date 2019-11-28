@@ -34,7 +34,7 @@
                         Just fill in the form below and one of our team members will contact you for a chat.
                       </p>
                       <div class="text-lg sm:text-lg mb-16">
-                        <form class="w-full max-w-lg">
+                        <form  name="netlify" class="w-full max-w-lg">
                           <div class="flex flex-wrap -mx-3 mb-6">
                             <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                               <label
@@ -42,12 +42,13 @@
                                 for="grid-first-name"
                               >First Name</label>
                               <input
-                                class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                                class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                                 id="grid-first-name"
                                 type="text"
                                 placeholder="First Name"
+                                required
                               />
-                              <p class="text-red-500 text-xs italic">Please fill out this field.</p>
+                              
                             </div>
                             <div class="w-full md:w-1/2 px-3">
                               <label
@@ -59,6 +60,7 @@
                                 id="grid-last-name"
                                 type="text"
                                 placeholder="Last Name"
+                                required
                               />
                             </div>
                           </div>
@@ -148,8 +150,8 @@
                             <div class="md:w-1/3">
                               <button
                                 class="shadow bg-green-500 hover:bg-green-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
-                                type="button"
-                              >Quote Me</button>
+                                type="submit"
+                              >Send</button>
                             </div>
                           </div>
 
