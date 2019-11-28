@@ -1,4 +1,5 @@
 <template>
+    
     <!-- Start Projects -->
     <section class="relative bg-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-24">
       <div>
@@ -26,7 +27,7 @@
             <div class="p-4">
               <div class="flex items-center text-sm">
                 
-              <span class="ml-4 text-gray-600">{{ item.node.date }}</span>
+              <span class="text-gray-600 my-2">{{ item.node.date }}</span>
             
               </div>
               <g-link 
