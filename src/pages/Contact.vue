@@ -1,10 +1,8 @@
 <template>
   <Layout>
-    <main class="container mx-auto px4">
-      <div class="flex-grow">
-        <article
-          class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-48"
-        >
+    <main class="bg-gray-100">
+      <div class="container mx-auto px4 flex-grow">
+        <article class="relative px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-48">
           <div class="w-full flex">
             <!-- Col -->
             <div class="w-full h-auto bg-gray-400 hidden lg:block lg:w-1/2 bg-cover rounded-l-lg">
@@ -130,7 +128,10 @@
 
                           <div class="md:flex md:items-center mb-6">
                             <div class="w-full">
-                              <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="message">Message</label>
+                              <label
+                                class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                                for="message"
+                              >Message</label>
 
                               <textarea
                                 id="message"
