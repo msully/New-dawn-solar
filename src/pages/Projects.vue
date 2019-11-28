@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <article>
+    <article class="lg:px-8">
       <div class="flex flex-col lg:flex-row mt-24">
         <Projects :projects="$page.projects.edges" />
       </div>
