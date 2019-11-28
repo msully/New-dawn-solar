@@ -69,7 +69,7 @@
     </section>
     <!-- End How it works -->
 
-    <Projects :projects="$page.projects.edges" />
+    <Projects :projects="$page.projects.edges" :path="this.$route.path"/>
 
     <!-- Start partners -->
     <section class="relative bg-gray-200 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-24">

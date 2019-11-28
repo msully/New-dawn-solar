@@ -7,8 +7,7 @@
         Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
         turpis egestas.
       </p>
-
-      <g-link
+      <g-link v-if="path"
         to="/projects"
         class="inline-block text-teal-500 font-semibold mt-6 mt:md-0"
       >View All Projects</g-link>
@@ -50,7 +49,8 @@ export default {
     projects: {
       type: Array,
       requires: true
-    }
+    },
+    path: String
   }
 };
 </script>
