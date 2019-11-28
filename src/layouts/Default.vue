@@ -1,16 +1,17 @@
 <template>
-  <div class="antialiased bg-white font-sans text-gray-900">
-    <main class="w-full">
-      <Header />
-      <slot />
-      <Footer />
-    </main>
+  <div class="antialiased bg-white font-sans flex flex-col min-h-screen w-full text-gray-900">
+    <Header />
+    
+        <slot />
+
+    <Footer />
   </div>
 </template>
 
 <script>
 
 import Header from '../components/Header'
+
 import Footer from '../components/Footer'
 
 export default {

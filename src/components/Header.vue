@@ -51,7 +51,7 @@
             <li class="md:ml-6 mt-3 md:mt-0">
               <a
                 class="inline-block font-semibold px-4 py-2 text-gray-900 bg-orange-600 md:bg-transparent md:hover:bg-orange-400 border border-orange-600 rounded"
-                href="#"
+                href="/contact"
               >Free consultation</a>
             </li>
           </ul>

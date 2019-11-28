@@ -20,7 +20,7 @@
             class="text-blue-100 text-xl md:text-2xl leading-snug mt-4"
           >Find out how we can help you secure reliable power with <strong>SOLAR Energy</strong> for Farming, Business and Homes..</p>
           <a
-            href="#"
+            href="/contact"
             class="px-8 py-4 bg-orange-500 hover:bg-orange-800 text-white rounded inline-block mt-8 font-semibold"
           >Get a Quote</a>
         </div>

@@ -18,8 +18,8 @@ module.exports = {
   templates: {
     Projects: [
       {
-        path: "/content/projects/:title",
-        component: "./src/templates/Projects.vue"
+        path: "/projects/:title",
+        component: "./src/templates/Project.vue"
       }
     ]
   },

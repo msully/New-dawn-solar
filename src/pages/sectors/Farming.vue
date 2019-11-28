@@ -4,7 +4,7 @@
     <article class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-24">
       <div class="flex flex-col lg:flex-row mt-24">
         <div class="w-full lg:px-8">
-          <h2 class="text-3xl leading-tight font-bold mt-4">Farming and Solar</h2>
+          <h1 class="text-3xl leading-tight font-bold mt-4">Farming and Solar</h1>
           <p class="mt-2 leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque massa placerat duis ultricies lacus sed turpis. Sit amet luctus venenatis lectus. Platea dictumst vestibulum rhoncus est. Ut ornare lectus sit amet est. In cursus turpis massa tincidunt. At volutpat diam ut venenatis. Risus commodo viverra maecenas accumsan lacus. Sodales ut eu sem integer vitae justo eget. Cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla. Amet dictum sit amet justo donec. Gravida rutrum quisque non tellus orci ac auctor augue. Ut tellus elementum sagittis vitae et. Aliquet enim tortor at auctor urna nunc id cursus metus. Quam id leo in vitae turpis. Donec enim diam vulputate ut pharetra sit amet aliquam id. Id aliquet risus feugiat in ante metus. Urna neque viverra justo nec ultrices. In cursus turpis massa tincidunt dui ut.
             Tortor id aliquet lectus proin nibh nisl. 
