@@ -1,9 +1,7 @@
 ---
-title: Card Title
+title: Card Title 2
 date: 2019-11-28T10:34:07.479Z
 published: true
-tags:
-  - Solar
 cover_image: /images/uploads/sola-future.jpg
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
