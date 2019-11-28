@@ -30,7 +30,7 @@
                       </div>
 
                       <p class="mb-12">
-                        Keen to get started with solar? Maybe you just want to know a little more about solar? Or perhaps you're looking to work with us? (We're always in need of good people).
+                        Keen to get started with solar? Maybe you just want to know a little more about solar?.
                         Just fill in the form below and one of our team members will contact you for a chat.
                       </p>
                       <div class="text-lg sm:text-lg mb-16">
