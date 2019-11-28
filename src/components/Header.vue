@@ -35,7 +35,13 @@
         >
           <ul class="md:flex items-center justify-between">
             <li class="md:ml-4">
-              <a class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800" href="/">Sectors</a>
+              <a class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800" href="/sectors/farming">Farming</a>
+            </li>
+            <li class="md:ml-4">
+              <a class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800" href="/sectors/commercial">Commercial</a>
+            </li>
+            <li class="md:ml-4">
+              <a class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800" href="/sectors/residential">Residential</a>
             </li>
             <li class="md:ml-4">
               <a class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800" href="/projects">Projects</a>
