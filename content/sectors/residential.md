@@ -28,4 +28,4 @@ benefits_list:
   heading: BENEFITS OF SWITCHING TO RENEWABLE ENERGY TECHNOLOGIES
   subheading: Reducing costs and going green
 ---
-Contact us for a [quuote ](/contact)
+Contact us for a [quote ](/contact)
