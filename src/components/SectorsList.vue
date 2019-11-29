@@ -45,7 +45,8 @@ export default {
     sectors: {
       type: Array,
       requires: true
-    }
+    },
+    path: String
   }
 };
 </script>

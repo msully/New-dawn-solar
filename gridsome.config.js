@@ -21,6 +21,12 @@ module.exports = {
         path: "/projects/:title",
         component: "./src/templates/Project.vue"
       }
+    ],
+    Sectors: [
+      {
+        path: "/sectors/:title",
+        component: "./src/templates/Sector.vue"
+      }
     ]
   },
   plugins: [
