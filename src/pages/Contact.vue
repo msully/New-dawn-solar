@@ -34,7 +34,7 @@
                         Just fill in the form below and one of our team members will contact you for a chat.
                       </p>
                       <div class="text-lg sm:text-lg mb-16">
-                        <form  name="netlify" class="w-full max-w-lg">
+                        <form  name="new-dawn-form" data-netlify="true" class="w-full max-w-lg">
                           <div class="flex flex-wrap -mx-3 mb-6">
                             <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                               <label
