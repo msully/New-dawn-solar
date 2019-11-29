@@ -42,7 +42,7 @@ benefits_list:
         Solar panels are classed as plant and machinery and are eligible for
         capital allowances.
   heading: BENEFITS AT A GLANCE
-  subheading: How can solar panels benefit my farm?
+  subheading: 'How can solar panels benefit my farm? '
 ---
 # Interested or would like more information?
 
