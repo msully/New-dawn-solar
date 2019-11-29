@@ -5,7 +5,7 @@
         <div class="w-full lg:px-8">
           <h1
             class="text-3xl leading-tight font-bold mt-4"
-          >Farming benifits form Cheaper, greener energy solutions by going Solar.</h1>
+          >Farming benifits from Cheaper, greener energy solutions by going Solar.</h1>
           <div class="text-xl leading-tight capitalize mt-4">BENEFITS OF SWITCHING TO RENEWABLE ENERGY TECHNOLOGIES</div>
           <h2 class="text-l leading-tight font-bold mt-4">Reducing costs and going green</h2>
           <div class="w-full lg:w-1/2 lg:px-8 mt-12 lg:mt-8">
