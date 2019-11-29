@@ -1,9 +1,8 @@
 ---
 title: Residential
-heading: 'Cheaper, greener energy solutions for your home.'
 date: 2019-11-29T13:05:06.556Z
 published: true
-cover_image: /images/uploads/sola-future.jpg
+cover_image: /images/uploads/residential-solar-panels-installation.jpg
 description: >-
   Whether you’re looking to install a fully integrated home solution or single
   technology such as solar PV panels – we have the technical skillset to design
