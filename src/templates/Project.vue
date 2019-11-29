@@ -10,7 +10,7 @@
             />
           <h1 class="text-4xl font-bold leading-tight mt-4">{{ $page.project.title }}</h1>
           <div class="text-xl text-gray-600 mb-4 mt-2">{{ $page.project.date }}</div>
-          <div class="markdown-body mb-8 mt-2" v-html="$page.project.content" />
+          <div class="markdown mb-8 mt-2" v-html="$page.project.content" />
           <div class="mb-8">
             <g-link to="/projects" class="font-bold uppercase">Back to Projects</g-link>
           </div>
