@@ -16,6 +16,12 @@ module.exports = {
   siteDescription:
     "Professional, fast, and reliable. Contact us with any questions you may have about installations and/or solar equipment pricing.",
   templates: {
+    About: [
+      {
+        path: "/:title",
+        component: "./src/templates/About.vue"
+      }
+    ],
     Projects: [
       {
         path: "/projects/:title",
@@ -30,6 +36,14 @@ module.exports = {
     ]
   },
   plugins: [
+    {
+      // Create Services from markdown files
+      use: "@gridsome/source-filesystem",
+      options: {
+        typeName: "About",
+        path: "content/about.md"
+      }
+    },
     {
       // Create Services from markdown files
       use: "@gridsome/source-filesystem",
