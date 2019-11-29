@@ -21,7 +21,7 @@
 }
 
 .vue-typer .custom.char {
-  color: #FFF;
+  @apply text-yellow-300;
 }
 
 @tailwind utilities;
