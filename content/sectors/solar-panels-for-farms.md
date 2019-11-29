@@ -1,5 +1,6 @@
 ---
-title: Solar panels for farms
+title: Farming
+heading: Solar panels for farms
 date: 2019-11-29T09:52:43.301Z
 published: true
 cover_image: /images/uploads/dairy-under-solar.jpg
