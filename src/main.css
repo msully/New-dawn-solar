@@ -124,7 +124,7 @@
   display: block;
 }
 
-.vue-typer .char.custom.typed {
+.vue-typer span.char.custom.typed {
   @apply text-yellow-300;
 }
 
