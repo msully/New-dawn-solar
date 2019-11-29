@@ -25,19 +25,27 @@ module.exports = {
   },
   plugins: [
     {
-      // Create posts from markdown files
+      // Create Services from markdown files
       use: "@gridsome/source-filesystem",
       options: {
         typeName: "Projects",
-        path: "content/projects/*.md",
+        path: "content/projects/*.md"
+      }
+    },
+    {
+      // Create Sectors from markdown files
+      use: "@gridsome/source-filesystem",
+      options: {
+        typeName: "Sectors",
+        path: "content/sectors/*.md"
       }
     },
     {
       use: `gridsome-plugin-netlify-cms`,
       options: {
-        publicPath: `/admin`
+        publicPath: `/static/admin`
       }
-    },
+    }
   ],
   css: {
     loaderOptions: {
