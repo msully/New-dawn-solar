@@ -20,4 +20,8 @@
   display: block;
 }
 
+.vue-typer .custom.char {
+  color: #FFF;
+}
+
 @tailwind utilities;

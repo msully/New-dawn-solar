@@ -13,12 +13,30 @@
 
       <div class="lg:w-3/4 relative z-10 h-100 lg:mt-8">
         <div>
-          <h1
-            class="text-white text-4xl md:text-5xl xl:text-6xl font-bold leading-tight"
-          >Solar is reliable</h1>
-          <p
-            class="text-blue-100 text-xl md:text-2xl leading-snug mt-4"
-          >Find out how we can help you secure reliable power with <strong>SOLAR Energy</strong> for Farming, Business and Homes..</p>
+          <h1 class="text-white text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
+            Solar is reliable
+            <br />for
+            <VueTyper
+              :text="words"
+              :repeat="Infinity"
+              :shuffle="false"
+              initial-action="typing"
+              :pre-type-delay="600"
+              :type-delay="100"
+              :pre-erase-delay="6000"
+              :erase-delay="800"
+              erase-style="clear"
+              :erase-on-complete="true"
+              caret-animation="phase"
+            />
+          </h1>
+
+          <p class="text-blue-100 text-xl md:text-2xl leading-snug mt-4">
+            Find out how we can help you secure reliable power with
+            <strong>SOLAR Energy</strong>
+            <br />
+for your next project.
+          </p>
           <a
             href="/contact"
             class="px-8 py-4 bg-orange-500 hover:bg-orange-800 text-white rounded inline-block mt-8 font-semibold"
@@ -61,10 +79,25 @@
             </div>
             <h4 class="text-xl font-bold mt-4">Farming</h4>
             <p class="mt-1">Solar for farming.</p>
-            <a href="/sectors/farming" class="inline-flex mt-4 items-center px-2 -mx-2 py-1 hover:text-gray-900 font-medium text-gray-600">
+            <a
+              href="/sectors/farming"
+              class="inline-flex mt-4 items-center px-2 -mx-2 py-1 hover:text-gray-900 font-medium text-gray-600"
+            >
               <span class="ml-3">Read More</span>
-              <svg aria-hidden="true" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10 w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
-            </a>   
+              <svg
+                aria-hidden="true"
+                data-prefix="fas"
+                data-icon="chevron-right"
+                class="svg-inline--fa fa-chevron-right fa-w-10 w-4 h-4 ml-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                />
+              </svg>
+            </a>
           </div>
         </div>
         <div class="md:w-1/2 md:px-4 mt-16 md:mt-0 lg:w-1/3">
@@ -91,9 +124,24 @@
             </div>
             <h4 class="text-xl font-bold mt-4">Commercial</h4>
             <p class="mt-1">Solar for business and commercial.</p>
-            <a href="/sectors/commercial" class="inline-flex mt-4 items-center px-2 -mx-2 py-1 hover:text-gray-900 font-medium text-gray-600">
+            <a
+              href="/sectors/commercial"
+              class="inline-flex mt-4 items-center px-2 -mx-2 py-1 hover:text-gray-900 font-medium text-gray-600"
+            >
               <span class="ml-3">Read More</span>
-              <svg aria-hidden="true" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10 w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+              <svg
+                aria-hidden="true"
+                data-prefix="fas"
+                data-icon="chevron-right"
+                class="svg-inline--fa fa-chevron-right fa-w-10 w-4 h-4 ml-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                />
+              </svg>
             </a>
           </div>
         </div>
@@ -118,9 +166,24 @@
             </div>
             <h4 class="text-xl font-bold mt-4">Residetial</h4>
             <p class="mt-1">Solar for Developers and home owners</p>
-            <a href="/sectors/residential" class="inline-flex mt-4 items-center px-2 -mx-2 py-1 hover:text-gray-900 font-medium text-gray-600">
+            <a
+              href="/sectors/residential"
+              class="inline-flex mt-4 items-center px-2 -mx-2 py-1 hover:text-gray-900 font-medium text-gray-600"
+            >
               <span class="ml-3">Read More</span>
-              <svg aria-hidden="true" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10 w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+              <svg
+                aria-hidden="true"
+                data-prefix="fas"
+                data-icon="chevron-right"
+                class="svg-inline--fa fa-chevron-right fa-w-10 w-4 h-4 ml-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                />
+              </svg>
             </a>
           </div>
         </div>
@@ -129,9 +192,21 @@
   </div>
 </template>
 
+
+
 <script>
+const words = ["Farming", "Comercial", "Retail", "Residetial", "Developers"];
+
 export default {
-  name: "Hero"
+  name: "Hero",
+  components: {
+    VueTyper: process.isServer
+      ? { inheritAttrs: false, render: h => h("span", null, [words[0]]) }
+      : () => import("vue-typer").then(({ VueTyper }) => VueTyper)
+  },
+  data() {
+    return { words };
+  }
 };
 </script>
 
