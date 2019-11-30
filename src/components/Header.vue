@@ -6,9 +6,9 @@
       <div class="w-1/2 md:w-auto">
         <a href="/">
           <img
-            class="w-64"
+            class="w-48"
             href="index.html"
-            src="../images/newdawn-logo-colour.svg"
+            src="../images/New Dawn Solar_LOGO_Full Colour.png"
             alt="New dawn solar logo"
           />
         </a>
@@ -56,7 +56,7 @@
 
             <li class="md:ml-6 mt-3 md:mt-0">
               <a
-                class="inline-block font-semibold px-4 py-2 text-gray-900 bg-orange-600 md:bg-transparent md:hover:bg-orange-400 border border-orange-600 rounded"
+                class="inline-block font-semibold px-4 py-2 text-gray-900 md:bg-transparent hover:bg-orange-400 border border-orange-600 rounded"
                 href="/contact"
               >Free consultation</a>
             </li>

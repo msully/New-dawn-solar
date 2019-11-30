@@ -7,8 +7,8 @@
           <p class="text-gray-400">Professional, fast, and reliable. Contact us with any questions you may have about installations and/or solar equipment pricing.
             </p>
             <p class="text-gray-400 mt-2">We are open Monday - Friday : 8am - 5pm, but you can reach us by email at any time and we will get back to you promptly.</p>
-          <div class="w-1/2 md:w-auto mt-6">
-            <img  class="w-64" href="index.html" src="../images/newdawn-logo-white.svg" alt="New dawn solar logo">
+          <div class="w-1/2 md:w-auto">
+            <img  class="w-48 mt-8" href="index.html" src="../images/New Dawn Solar_LOGO_Full Colour.png" alt="New dawn solar logo">
           </div>
         </div>
 
