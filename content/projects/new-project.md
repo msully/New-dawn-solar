@@ -1,5 +1,5 @@
 ---
-title: Card Title 2
+title: Project 2
 date: 2019-11-28T10:34:07.479Z
 published: true
 cover_image: /images/uploads/sola-future.jpg
