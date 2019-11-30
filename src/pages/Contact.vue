@@ -14,7 +14,7 @@
             </div>
             <!-- Col -->
             <div class="w-full lg:w-1/2 bg-white p-5 rounded-lg lg:rounded-l-none">
-              <div class="flex flex-col lg:flex-row mt-24">
+              <div class="flex flex-col lg:flex-row mt-6 md:mt24">
                 <div class="overflow-x-hidden">
                   <div class="contact-me bg-background-secondary pt-16">
                     <div class="container-inner mx-auto text-xl pb-4 relative">

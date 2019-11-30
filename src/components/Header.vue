@@ -4,47 +4,70 @@
   >
     <div class="flex flex-wrap items-center justify-between py-6">
       <div class="w-1/2 md:w-auto">
-        <a href="/">
+        <g-link to="/">
           <img
-            class="w-48"
+            class="w-24 md:w-30"
             href="index.html"
             src="../images/New Dawn Solar_LOGO_Full Colour.png"
             alt="New dawn solar logo"
           />
-        </a>
+        </g-link>
       </div>
 
-      <label for="menu-toggle" class="pointer-cursor md:hidden block">
-        <svg
-          class="fill-current text-gray-900"
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
+      <div class="flex md:hidden">
+        <button
+          @click="toggle"
+          type="button"
+          class="px-2 text-gray-600 hover:text-gray-900 focus:outline-none focus:text-gray-900"
         >
-          <title>menu</title>
-          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-        </svg>
-      </label>
+          <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              v-if="isOpen"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
+            />
+            <path
+              v-if="!isOpen"
+              fill-rule="evenodd"
+              d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+            />
+          </svg>
+        </button>
+      </div>
 
-      <input class="hidden" type="checkbox" id="menu-toggle" />
-
-      <div class="hidden md:block w-full md:w-auto" id="menu">
+      <div
+        class="md:block w-full md:w-auto"
+        :class="{ 'hidden': !isOpen, 'block': isOpen }"
+        id="menu"
+      >
         <nav
           class="w-full bg-white text-gray-900 md:bg-transparent rounded shadow-lg px-6 py-4 mt-4 text-center md:p-0 md:mt-0 md:shadow-none"
         >
           <ul class="md:flex items-center justify-between">
             <li class="md:ml-4">
-              <a class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800" href="/sectors/farming">Farming</a>
+              <a
+                class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800"
+                href="/sectors/farming"
+              >Farming</a>
             </li>
             <li class="md:ml-4">
-              <a class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800" href="/sectors/commercial">Commercial</a>
+              <a
+                class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800"
+                href="/sectors/commercial"
+              >Commercial</a>
             </li>
             <li class="md:ml-4">
-              <a class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800" href="/sectors/residential">Residential</a>
+              <a
+                class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800"
+                href="/sectors/residential"
+              >Residential</a>
             </li>
             <li class="md:ml-4">
-              <a class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800" href="/projects">Projects</a>
+              <a
+                class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800"
+                href="/projects"
+              >Projects</a>
             </li>
 
             <li class="md:ml-4">
@@ -69,6 +92,19 @@
 
 <script>
 export default {
-  name: "Header"
+  name: "Header",
+
+  props: [],
+
+  data() {
+    return {
+      isOpen: false
+    };
+  },
+  methods: {
+    toggle() {
+      this.isOpen = !this.isOpen;
+    }
+  }
 };
 </script>
