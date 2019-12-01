@@ -7,8 +7,6 @@ description: >-
   This card has supporting text below as a natural lead-in to additional
   content.
 ---
-![](/images/uploads/sola-future.jpg)
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque volutpat ac tincidunt vitae semper. Quam nulla porttitor massa id. Velit scelerisque in dictum non. Elit duis tristique sollicitudin nibh sit amet. Accumsan lacus vel facilisis volutpat est velit egestas. Egestas pretium aenean pharetra magna. Neque aliquam vestibulum morbi blandit cursus risus at ultrices. Turpis massa sed elementum tempus egestas sed. Cursus risus at ultrices mi tempus imperdiet nulla. Enim ut sem viverra aliquet eget sit amet tellus cras.
 
 Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Ultrices in iaculis nunc sed augue. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Gravida quis blandit turpis cursus in hac habitasse platea dictumst. Porta non pulvinar neque laoreet suspendisse interdum. Nunc sed blandit libero volutpat sed cras ornare arcu. Cras pulvinar mattis nunc sed. Egestas sed tempus urna et pharetra pharetra massa massa. Neque ornare aenean euismod elementum nisi quis. Turpis egestas sed tempus urna et pharetra pharetra massa. Aenean sed adipiscing diam donec adipiscing tristique risus nec. Turpis egestas sed tempus urna. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Pellentesque massa placerat duis ultricies. Cras ornare arcu dui vivamus arcu felis.
