@@ -2,7 +2,7 @@
 title: Project 1
 date: 2019-11-28T10:31:51.433Z
 published: true
-cover_image: /images/uploads/dairy-under-solar.jpg
+image: /images/uploads/dairy-under-solar.jpg
 description: >-
   This card has supporting text below as a natural lead-in to additional
   content.
