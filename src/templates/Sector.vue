@@ -15,10 +15,14 @@
           <h1 class="text-4xl font-bold leading-tight mt-4">{{ $page.sector.title }}</h1>
 
           <div class="text-xl">
-            {{ $page.sector.description}}
+            {{ $page.sector.description }}
           </div>
 
+          <h3 class="font-semibold text-lg mt-6">{{ $page.sector.benefits_list.heading }}</h3>
           <div class="lg:px-8 mt-12 lg:mt-8">
+          
+          <div class="uppercase tracking-wide text-sm mt-2 mb-6">{{ $page.sector.benefits_list.subheading }}</div>
+            
           <ul class="flex flex-row flex-wrap text-lg sm:text-xl">
             <li v-for="item in $page.sector.benefits_list.benefit" :key="item.heading" class="w-full md:w-1/2 checkmark mb-6">
               <h3 class="bold mt-2">
