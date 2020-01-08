@@ -30,7 +30,9 @@ benefits_list:
 ---
 A Solar power system is a system that is installed in a house in order to draw energy from the Sun and convert it into electricity. Solar panels , which are installed on the roof, collect solar energy and convert it into DC electricity which is then sent to the Inverter. 
 
-The Inverter in turn takes the DC electricity from the Solar panels and charges the batteries. The batteries are connected to the mains and feed electricity by way of Pure Sine Wave, which protects your sensitive household appliances from Eskom spikes and troughs. 
+The Inverter in turn takes the DC electricity from the Solar panels and charges the batteries. 
+
+The batteries are connected to the mains and feed electricity by way of Pure Sine Wave, which protects your sensitive household appliances from Eskom spikes and troughs. 
 
 The panels during the day power lighting and various appliances such as Fridges and Freezers, Televisions, laptops, hairdryers, washing machines, dishwashers , kettles, and toasters. 
 
