@@ -1,5 +1,6 @@
 ---
 title: Residential
+heading: SOLAR SOLUTIONS FOR THE HOMESTEAD
 date: 2019-11-29T13:05:06.556Z
 published: true
 cover_image: /images/uploads/residential-solar-panels-installation.jpg
@@ -27,4 +28,10 @@ benefits_list:
   heading: BENEFITS OF SWITCHING TO RENEWABLE ENERGY TECHNOLOGIES
   subheading: Reducing costs and going green
 ---
-Contact us for a [quote ](/contact)
+In South Africa Solar power provides an ideal source of energy that can be converted into electricity , and with Eskom’s erratic power supply, many Homeowners are exploring the Solar power option. Although the initial set up costs are high , it can save you thousands of rands in the long term.  
+
+A Solar power system is a system that is installed in a house in order to draw energy from the Sun and convert it into electricity. Solar panels , which are installed on the roof, collect solar energy and convert it into DC electricity which is then sent to the Inverter. The Inverter in turn takes the DC electricity from the Solar panels and charges the batteries. The batteries are connected to the mains and feed electricity by way of Pure Sine Wave, which protects your sensitive household appliances from Eskom spikes and troughs. The panels during the day power lighting and various appliances such as Fridges and Freezers, Televisions, laptops, hairdryers, washing machines, dishwashers , kettles, and toasters. 
+
+We supply only the best quality Inverters, Level 1 Panels and Lithium Iron Phosphate batteries, with very good guarantees, which far out weigh the payback period. We tailor the system according to demand from your house once we have measured what your  demand is. 
+
+We supply whatever system our client requires, and they are modular so can be added to as and when required. Generally we recommend a 5 kw Inverter to perform the functions already mentioned. However if one wants the geyser and other high demanding appliances we would recommend a 10kw system from the outset. We would install timer switches on the geysers to operate them when the Sun is at its highest. This has proved very successful where we have installed timer switches.
