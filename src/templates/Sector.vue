@@ -13,6 +13,11 @@
         <div class="w-full lg:px-8">
           
           <h1 class="text-4xl font-bold leading-tight mt-4">{{ $page.sector.title }}</h1>
+
+          <div class="text-xl">
+            {{ $page.sector.description}}
+          </div>
+
           <div class="lg:px-8 mt-12 lg:mt-8">
           <ul class="flex flex-row flex-wrap text-lg sm:text-xl">
             <li v-for="item in $page.sector.benefits_list.benefit" :key="item.heading" class="w-full md:w-1/2 checkmark mb-6">
@@ -25,8 +30,7 @@
             </li>
           </ul>
           </div>
-          <div class="markdown-body mb-8 mt-2" v-html="$page.sector.description" />
-          <div class="markdown-body mb-8 mt-2" v-html="$page.sector.content" />
+          <div class="markdown mb-8 mt-2" v-html="$page.sector.content" />
           <div class="mb-8">
             <g-link to="/sectors" class="font-bold uppercase">Back to Market sectors we support</g-link>
           </div>
