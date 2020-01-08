@@ -13,6 +13,7 @@
         <div class="w-full lg:px-8">
           
           <h1 class="text-4xl font-bold leading-tight mt-4">{{ $page.sector.title }}</h1>
+          <h1 class="text-2xl font-bold leading-tight mt-6">{{ $page.sector.heading }}</h1>
 
           <div class="text-xl">
             {{ $page.sector.description }}
