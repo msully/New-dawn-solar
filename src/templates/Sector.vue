@@ -13,16 +13,16 @@
         <div class="w-full lg:px-8">
           
           <h1 class="text-4xl font-bold leading-tight mt-4">{{ $page.sector.title }}</h1>
-          <h1 class="text-2xl font-bold leading-tight mt-6">{{ $page.sector.heading }}</h1>
+          <div class="text-sm uppercase tracking-wide text-gray-800 font-normal leading-tight mt-1 mb-6">{{ $page.sector.heading }}</div>
 
-          <div class="text-xl">
+          <div class="text-l">
             {{ $page.sector.description }}
           </div>
 
           <h3 class="font-semibold text-lg mt-6">{{ $page.sector.benefits_list.heading }}</h3>
           <div class="lg:px-8 mt-12 lg:mt-8">
           
-          <div class="uppercase tracking-wide text-sm mt-2 mb-6">{{ $page.sector.benefits_list.subheading }}</div>
+          <div class="uppercase tracking-wide text-lg mt-2 mb-6">{{ $page.sector.benefits_list.subheading }}</div>
             
           <ul class="flex flex-row flex-wrap text-lg sm:text-xl">
             <li v-for="item in $page.sector.benefits_list.benefit" :key="item.heading" class="w-full md:w-1/2 checkmark mb-6">
@@ -50,6 +50,7 @@
 query Sector ($path: String) {
   sector: sectors (path: $path) {
     title
+    heading
     date (format: "D, MMMM, Y")
     path
     cover_image
