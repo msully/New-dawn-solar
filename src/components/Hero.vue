@@ -34,8 +34,7 @@
           <p class="text-blue-100 text-xl md:text-2xl leading-snug mt-4">
             Find out how we can help you secure reliable power with
             <strong>SOLAR Energy</strong>
-            <br />
-for your next project.
+            <br />for your next project.
           </p>
           <a
             href="/contact"
