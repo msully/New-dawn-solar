@@ -37,7 +37,7 @@
           </div>
           <div class="markdown mb-8 mt-2" v-html="$page.sector.content" />
           <div class="mb-8">
-            <g-link to="/sectors" class="font-bold uppercase">Back to Market sectors we support</g-link>
+            <g-link to="/sectors" class="text-sm md:text-base uppercase text-orange-600 font-semibold tracking-wider border-b-2 border-transparent hover:border-orange-800 hover:border-b-2 mb-4">Other Market sectors we support →</g-link>
           </div>
         </div>
       </div>
