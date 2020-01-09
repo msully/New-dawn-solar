@@ -100,8 +100,9 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "home"
     label: "Home page"
-    files: 
-      - name:
+    delete: false # Prevent users from deleting documents in this collection
+    files:
+      - name: "home"
         label: "Home page"
         file: "data/home.yaml"
         description: "Home page content"
