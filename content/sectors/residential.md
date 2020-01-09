@@ -9,6 +9,12 @@ description: >-
   technology such as solar PV panels – we have the technical skillset to design
   a bespoke energy system capable of reducing your carbon footprint and
   increasing your bank balance.
+
+
+  In South Africa Solar power provides an ideal source of energy that can be
+  converted into electricity , and with Eskom’s erratic power supply, many
+  Homeowners are exploring the Solar power option. Although the initial set up
+  costs are high , it can save you thousands of rands in the long term.
 benefits_list:
   benefit:
     - heading: Lower your energy bills
