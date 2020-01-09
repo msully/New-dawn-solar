@@ -102,9 +102,9 @@ collections:
     label: "Home page"
     files: 
       - name:
-        label: 'Site Settings'
-        file: 'data/home.yaml'
-        description: 'General Site Settings'
+        label: "Home page"
+        file: "data/home.yaml"
+        description: "Home page content"
         fields: # The fields for each document, usually in front matter
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Date", name: "date", widget: "datetime" }

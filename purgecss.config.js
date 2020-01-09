@@ -11,7 +11,7 @@ module.exports = {
     "./src/**/*.jsx",
     "./src/**/*.html",
     "./src/**/*.pug",
-    "./src/**/*.md"
+    "./src/**/*.md",
   ],
   whitelist: [
     "body",
