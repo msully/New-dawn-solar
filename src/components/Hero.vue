@@ -195,7 +195,7 @@ for your next project.
 
 
 <script>
-const words = ["Farming", "Comercial", "Retail", "Residetial", "Developers"];
+const words = ["Farming", "Commercial", "Retail", "Residetial", "Developers"];
 
 export default {
   name: "Hero",
