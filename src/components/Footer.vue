@@ -15,9 +15,9 @@
         <div class="w-full lg:w-1/4 mt-8 lg:mt-0 lg:mx-4">
           <h5 class="uppercase tracking-wider font-semibold text-gray-500">We support</h5>
           <ul class="mt-4">
-            <li class="mt-2"><a href="#" title="" class="opacity-75 hover:opacity-100">Farmers</a></li>
-            <li class="mt-2"><a href="#" title="" class="opacity-75 hover:opacity-100">Home owners</a></li>
-            <li class="mt-2"><a href="#" title="" class="opacity-75 hover:opacity-100">Business</a></li>
+            <li class="mt-2"><a href="/sectors/farming" title="" class="opacity-75 hover:opacity-100">Farmers</a></li>
+            <li class="mt-2"><a href="/sectors/residential" title="" class="opacity-75 hover:opacity-100">Home owners</a></li>
+            <li class="mt-2"><a href="/sectors/commercial" title="" class="opacity-75 hover:opacity-100">Business</a></li>
           </ul>
         </div>
 
