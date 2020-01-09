@@ -45,3 +45,7 @@ The panels during the day power lighting and various appliances such as Fridges 
 We supply only the best quality Inverters, Level 1 Panels and Lithium Iron Phosphate batteries, with very good guarantees, which far out weigh the payback period. We tailor the system according to demand from your house once we have measured what your  demand is. 
 
 We supply whatever system our client requires, and they are modular so can be added to as and when required. Generally we recommend a 5 kw Inverter to perform the functions already mentioned. However if one wants the geyser and other high demanding appliances we would recommend a 10kw system from the outset. We would install timer switches on the geysers to operate them when the Sun is at its highest. This has proved very successful where we have installed timer switches.
+
+### Interested or would like more information?
+
+New Dawn Solar is highly experienced in supplying agricultural building solar panels. If you would like more informational along with the facts and the figures on how you can benefit from solar please get in touch by requesting a[ **fee consultation**.](/contact)
