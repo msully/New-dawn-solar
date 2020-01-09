@@ -78,25 +78,15 @@
             </div>
             <h4 class="text-xl font-bold mt-4">Farming</h4>
             <p class="mt-1">Solar for farming.</p>
-            <a
-              href="/sectors/farming"
-              class="inline-flex mt-4 items-center px-2 -mx-2 py-1 hover:text-gray-900 font-medium text-gray-600"
-            >
-              <span class="ml-3">Read More</span>
-              <svg
-                aria-hidden="true"
-                data-prefix="fas"
-                data-icon="chevron-right"
-                class="svg-inline--fa fa-chevron-right fa-w-10 w-4 h-4 ml-2"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 320 512"
+             <div class="p-2 mt-4">
+              <g-link
+                to="/sectors/farming"
+                class="text-sm md:text-base uppercase text-orange-600 font-semibold tracking-wider border-b-2 border-transparent hover:border-orange-800 hover:border-b-2"
               >
-                <path
-                  fill="currentColor"
-                  d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
-                />
-              </svg>
-            </a>
+                Learn
+                more →
+              </g-link>
+            </div>
           </div>
         </div>
         <div class="md:w-1/2 md:px-4 mt-16 md:mt-0 lg:w-1/3">
@@ -123,25 +113,15 @@
             </div>
             <h4 class="text-xl font-bold mt-4">Commercial</h4>
             <p class="mt-1">Solar for business and commercial.</p>
-            <a
-              href="/sectors/commercial"
-              class="inline-flex mt-4 items-center px-2 -mx-2 py-1 hover:text-gray-900 font-medium text-gray-600"
-            >
-              <span class="ml-3">Read More</span>
-              <svg
-                aria-hidden="true"
-                data-prefix="fas"
-                data-icon="chevron-right"
-                class="svg-inline--fa fa-chevron-right fa-w-10 w-4 h-4 ml-2"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 320 512"
+             <div class="p-2 mt-4">
+              <g-link
+                to="/sectors/commercial"
+                class="text-sm md:text-base uppercase text-orange-600 font-semibold tracking-wider border-b-2 border-transparent hover:border-orange-800 hover:border-b-2"
               >
-                <path
-                  fill="currentColor"
-                  d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
-                />
-              </svg>
-            </a>
+                Learn
+                more →
+              </g-link>
+            </div>
           </div>
         </div>
         <div class="md:w-1/2 md:px-4 mt-16 md:mt-8 lg:mt-0 lg:w-1/3">
@@ -165,25 +145,15 @@
             </div>
             <h4 class="text-xl font-bold mt-4">Residetial</h4>
             <p class="mt-1">Solar for Developers and home owners</p>
-            <a
-              href="/sectors/residential"
-              class="inline-flex mt-4 items-center px-2 -mx-2 py-1 hover:text-gray-900 font-medium text-gray-600"
-            >
-              <span class="ml-3">Read More</span>
-              <svg
-                aria-hidden="true"
-                data-prefix="fas"
-                data-icon="chevron-right"
-                class="svg-inline--fa fa-chevron-right fa-w-10 w-4 h-4 ml-2"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 320 512"
+            <div class="p-2 mt-4">
+              <g-link
+                to="/sectors/residential"
+                class="text-sm md:text-base uppercase text-orange-600 font-semibold tracking-wider border-b-2 border-transparent hover:border-orange-800 hover:border-b-2"
               >
-                <path
-                  fill="currentColor"
-                  d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
-                />
-              </svg>
-            </a>
+                Learn
+                more →
+              </g-link>
+            </div>
           </div>
         </div>
       </div>
