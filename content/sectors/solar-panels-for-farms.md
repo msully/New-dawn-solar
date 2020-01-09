@@ -47,4 +47,4 @@ benefits_list:
 ---
 ### Interested or would like more information?
 
-New Dawn Solar is highly experienced in supplying agricultural building solar panels. If you would like more informational along with the facts and the figures on how you can benefit from solar please get in touch by requesting a[ **fee consultation**.](/contact)
+New Dawn Solar is highly experienced in supplying **Agricultural building Solar Solutions**. If you would like more informational along with the facts and the figures on how you can benefit from solar please get in touch by requesting a[ **fee consultation**.](/contact)
