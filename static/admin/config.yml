@@ -9,38 +9,173 @@ collections:
     folder: "content/projects" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    extension: 'md'
+    extension: "md"
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Published", name: "published", widget: "boolean", default: true}
-      - {label: "Cover Image", name: "cover_image", widget: "image", required: false}
-      - {label: "Description", name: "description", widget: "markdown"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - {
+          label: "Published",
+          name: "published",
+          widget: "boolean",
+          default: true,
+        }
+      - {
+          label: "Cover Image",
+          name: "cover_image",
+          widget: "image",
+          required: false,
+        }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "sectors" # Used in routes, e.g., /content/sectors
     label: "Sector" # Used in the UI
     folder: "content/sectors" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    extension: 'md'
+    extension: "md"
     fields: # The fields for each document, usually in front matter
-      - {label: "Sector", name: "title", widget: "string"}
-      - {label: "Heading", name: "heading", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Published", name: "published", widget: "boolean", default: true}
-      - {label: "Cover Image", name: "cover_image", widget: "image", required: false}
-      - {label: "Description", name: "description", widget: "markdown"}
-      - {label: "Benefits list", name: "benefits_list", widget: "object", fields: [{label: "Heading", name: "heading", default: "BENEFITS AT A GLANCE", widget: "string"}, {label: "Subheading", name: "subheading", widget: "text"}, {label: "Benefit", name: "benefit", widget: "list", fields: [{label: "Heading", name: "heading", widget: "text"}, {label: "Text", name: "text", widget: "text"}]}]}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Sector", name: "title", widget: "string" }
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - {
+          label: "Published",
+          name: "published",
+          widget: "boolean",
+          default: true,
+        }
+      - {
+          label: "Cover Image",
+          name: "cover_image",
+          widget: "image",
+          required: false,
+        }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - {
+          label: "Benefits list",
+          name: "benefits_list",
+          widget: "object",
+          fields:
+            [
+              {
+                label: "Heading",
+                name: "heading",
+                default: "BENEFITS AT A GLANCE",
+                widget: "string",
+              },
+              { label: "Subheading", name: "subheading", widget: "text" },
+              {
+                label: "Benefit",
+                name: "benefit",
+                widget: "list",
+                fields:
+                  [
+                    { label: "Heading", name: "heading", widget: "text" },
+                    { label: "Text", name: "text", widget: "text" },
+                  ],
+              },
+            ],
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "about" # Used in routes, e.g., /content/sectors
     label: "About" # Used in the UI
     folder: "content/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    extension: 'md'
+    extension: "md"
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Published", name: "published", widget: "boolean", default: true}
-      - {label: "Cover Image", name: "cover_image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - {
+          label: "Published",
+          name: "published",
+          widget: "boolean",
+          default: true,
+        }
+      - {
+          label: "Cover Image",
+          name: "cover_image",
+          widget: "image",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "home"
+    label: "Home page"
+    folder: "content/home"
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    extension: "md"
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - {
+          label: "Section - Banner",
+          name: "section_banner",
+          widget: "object",
+          fields:
+            [
+              { label: "Heading", name: "heading", widget: "text" },
+              {
+                label: "Words",
+                name: "words",
+                widget: "list",
+                fields:
+                  [
+                    { label: "Heading Ticker words", name: "text", hint: "Only add one word for each entry", widget: "string" },
+                  ],
+              },
+              { label: "Subheading", name: "subheading", widget: "text" },
+            ],
+        }
+      - {
+          label: "Section - Solar",
+          name: "section_solar",
+          widget: "object",
+          fields:
+            [
+              { label: "Heading", name: "heading", widget: "text" },
+              { label: "Subheading", name: "subheading", widget: "text" },
+              {
+                label: "Features",
+                name: "features",
+                widget: "list",
+                fields:
+                  [
+                    { label: "Heading", name: "heading", widget: "text" },
+                    { label: "Text", name: "text", widget: "text" },
+                  ],
+              },
+            ],
+        }
+      - {
+          label: "Section - How Solar Works",
+          name: "section_how",
+          widget: "object",
+          fields:
+            [
+              { label: "Heading", name: "heading", widget: "text" },
+              { label: "Subheading", name: "subheading", widget: "text" },
+              { label: "Body", name: "body", widget: "markdown" },
+              {
+                label: "Cover Image",
+                name: "cover_image",
+                widget: "image",
+                required: false,
+              },
+            ],
+        }
+      - {
+          label: "Section - Partners",
+          name: "section_partners",
+          widget: "object",
+          fields:
+            [
+              { label: "Heading", name: "heading", widget: "text" },
+              { label: "Subheading", name: "subheading", widget: "text" },
+              {
+                label: "Partner logo",
+                name: "partner_logo",
+                widget: "list",
+                fields: [{ label: "Logo", name: "logo", widget: "image" }],
+              },
+            ],
+        }

@@ -2,9 +2,6 @@
 title: About
 date: 2019-11-29T18:48:53.531Z
 published: true
-components:
-  - title: Breadcrumb
-    type: breadcrumbs
 ---
 ## Meet the company
 

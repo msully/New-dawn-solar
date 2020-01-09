@@ -5,19 +5,16 @@
     <section class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-24">
       <div class="flex flex-col lg:flex-row lg:-mx-8">
         <div class="w-full lg:w-1/2 lg:px-8">
-          <h2 class="text-3xl leading-tight font-bold mt-4">Solar makes seriously good sense</h2>
-          <p
-            class="text-lg mt-4 font-semibold"
-          >Farming, Business parks, University, Colleges, Schools, Hospitals and more...</p>
-          <p
-            class="mt-2 leading-relaxed"
-          >With a decent roof or plot of land and a long-term intention to stay SOLAR makes good sense. Ideally the you should own the freehold of your premises, or have a long-lease over the property.</p>
-          <p
-            class="mt-2 leading-relaxed"
-          >The lifetime cost per kWh of solar electricity is now 5.5p per kWh... this compares to 10-12p for electricity purchased from the grid.</p>
-          <p
-            class="mt-2 leading-relaxed"
-          >In the right business, the system will more than pay for itself, should be financable if necessary and will significantly improve your company’s impact on the environment.</p>
+          <h2 class="text-3xl leading-tight font-bold mt-4">Using energy as efficiently and effectively as possible</h2>
+          <p class="text-lg mt-4 font-semibold">
+            Using energy as efficiently and effectively as possible is essential to meet the energy needs of our future generations and to enable transition to renewable energy sources.
+            </p>
+          <p>
+            Fortunately, energy efficiency and conservation are also the lowest cost options for meeting the current energy needs and that of our future generations. Energy efficiency also provides many other benefits to environment, economy and enhanced the reliability of energy systems.
+            With the use the more efficient equipment and changes to the way we use energy to meet our needs, we can create an impact on the environment and resources available for our future generation while enjoying the financial benefit.
+            In Homes and Businesses people often lack the information necessary to make good choices in energy efficient equipment, services and the financing they need to achieve energy efficiency. We in New Dawn Solar will assist the client with making the right choices from efficient lighting and efficient Solar interventions. BENEFIT OF ENERGY EFFICIENCY
+            “The cheapest energy is the energy that need not be generated.”
+          </p>
         </div>
 
         <div class="w-full lg:w-1/2 lg:px-8 mt-12 lg:mt-8">
@@ -69,7 +66,7 @@
     </section>
     <!-- End How it works -->
 
-    <Projects :projects="$page.projects.edges" :path="this.$route.path"/>
+    <Projects :projects="$page.projects.edges" :path="this.$route.path" />
 
     <!-- Start partners -->
     <section class="relative bg-gray-200 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-24">
