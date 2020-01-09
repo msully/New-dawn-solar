@@ -48,4 +48,4 @@ We supply whatever system our client requires, and they are modular so can be ad
 
 ### Interested or would like more information?
 
-New Dawn Solar is highly experienced in supplying agricultural building solar panels. If you would like more informational along with the facts and the figures on how you can benefit from solar please get in touch by requesting a[ **fee consultation**.](/contact)
+New Dawn Solar is highly experienced in supplying **Residential solar solutions**. If you would like more informational along with the facts and the figures on how you can benefit from solar please get in touch by requesting a[ **fee consultation**.](/contact)
