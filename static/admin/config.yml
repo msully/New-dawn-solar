@@ -100,82 +100,83 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "home"
     label: "Home page"
-    folder: "content/home"
-    create: false # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    extension: "md"
-    fields: # The fields for each document, usually in front matter
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - {
-          label: "Section - Banner",
-          name: "section_banner",
-          widget: "object",
-          fields:
-            [
-              { label: "Heading", name: "heading", widget: "text" },
-              {
-                label: "Words",
-                name: "words",
-                widget: "list",
-                fields:
-                  [
-                    { label: "Heading Ticker words", name: "text", hint: "Only add one word for each entry", widget: "string" },
-                  ],
-              },
-              { label: "Subheading", name: "subheading", widget: "text" },
-            ],
-        }
-      - {
-          label: "Section - Solar",
-          name: "section_solar",
-          widget: "object",
-          fields:
-            [
-              { label: "Heading", name: "heading", widget: "text" },
-              { label: "Subheading", name: "subheading", widget: "text" },
-              {
-                label: "Features",
-                name: "features",
-                widget: "list",
-                fields:
-                  [
-                    { label: "Heading", name: "heading", widget: "text" },
-                    { label: "Text", name: "text", widget: "text" },
-                  ],
-              },
-            ],
-        }
-      - {
-          label: "Section - How Solar Works",
-          name: "section_how",
-          widget: "object",
-          fields:
-            [
-              { label: "Heading", name: "heading", widget: "text" },
-              { label: "Subheading", name: "subheading", widget: "text" },
-              { label: "Body", name: "body", widget: "markdown" },
-              {
-                label: "Cover Image",
-                name: "cover_image",
-                widget: "image",
-                required: false,
-              },
-            ],
-        }
-      - {
-          label: "Section - Partners",
-          name: "section_partners",
-          widget: "object",
-          fields:
-            [
-              { label: "Heading", name: "heading", widget: "text" },
-              { label: "Subheading", name: "subheading", widget: "text" },
-              {
-                label: "Partner logo",
-                name: "partner_logo",
-                widget: "list",
-                fields: [{ label: "Logo", name: "logo", widget: "image" }],
-              },
-            ],
-        }
+    files: 
+      - name:
+        label: 'Site Settings'
+        file: 'data/home.yaml'
+        description: 'General Site Settings'
+        fields: # The fields for each document, usually in front matter
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Date", name: "date", widget: "datetime" }
+          - {
+              label: "Section - Banner",
+              name: "section_banner",
+              widget: "object",
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: "text" },
+                  {
+                    label: "Words",
+                    name: "words",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Heading Ticker words", name: "text", hint: "Only add one word for each entry", widget: "string" },
+                      ],
+                  },
+                  { label: "Subheading", name: "subheading", widget: "text" },
+                ],
+            }
+          - {
+              label: "Section - Solar",
+              name: "section_solar",
+              widget: "object",
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: "text" },
+                  { label: "Subheading", name: "subheading", widget: "text" },
+                  {
+                    label: "Features",
+                    name: "features",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Heading", name: "heading", widget: "text" },
+                        { label: "Text", name: "text", widget: "text" },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Section - How Solar Works",
+              name: "section_how",
+              widget: "object",
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: "text" },
+                  { label: "Subheading", name: "subheading", widget: "text" },
+                  { label: "Body", name: "body", widget: "markdown" },
+                  {
+                    label: "Cover Image",
+                    name: "cover_image",
+                    widget: "image",
+                    required: false,
+                  },
+                ],
+            }
+          - {
+              label: "Section - Partners",
+              name: "section_partners",
+              widget: "object",
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: "text" },
+                  { label: "Subheading", name: "subheading", widget: "text" },
+                  {
+                    label: "Partner logo",
+                    name: "partner_logo",
+                    widget: "list",
+                    fields: [{ label: "Logo", name: "logo", widget: "image" }],
+                  },
+                ],
+            }

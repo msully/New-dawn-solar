@@ -5,15 +5,9 @@
     <section class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-24">
       <div class="flex flex-col lg:flex-row lg:-mx-8">
         <div class="w-full lg:w-1/2 lg:px-8">
-          <h2 class="text-3xl leading-tight font-bold mt-4">Using energy as efficiently and effectively as possible</h2>
+          <h2 class="text-3xl leading-tight font-bold mt-4">{{ home.section_solar.features.heading }}</h2>
           <p class="text-lg mt-4 font-semibold">
-            Using energy as efficiently and effectively as possible is essential to meet the energy needs of our future generations and to enable transition to renewable energy sources.
-            </p>
-          <p>
-            Fortunately, energy efficiency and conservation are also the lowest cost options for meeting the current energy needs and that of our future generations. Energy efficiency also provides many other benefits to environment, economy and enhanced the reliability of energy systems.
-            With the use the more efficient equipment and changes to the way we use energy to meet our needs, we can create an impact on the environment and resources available for our future generation while enjoying the financial benefit.
-            In Homes and Businesses people often lack the information necessary to make good choices in energy efficient equipment, services and the financing they need to achieve energy efficiency. We in New Dawn Solar will assist the client with making the right choices from efficient lighting and efficient Solar interventions. BENEFIT OF ENERGY EFFICIENCY
-            “The cheapest energy is the energy that need not be generated.”
+            {{ home.section_solar.features.heading }}
           </p>
         </div>
 
@@ -140,8 +134,18 @@
 <script>
 import Projects from "~/components/Projectslist";
 import Hero from "~/components/Hero";
+import home from '@/data/home.yaml';
+
+section_solar:
+  features:
+    - heading
 
 export default {
+  data() {
+    return {
+      home
+    }
+  },
   components: {
     Hero,
     Projects

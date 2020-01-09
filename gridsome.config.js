@@ -16,12 +16,6 @@ module.exports = {
   siteDescription:
     "Professional, fast, and reliable. Contact us with any questions you may have about installations and/or solar equipment pricing.",
   templates: {
-    About: [
-      {
-        path: "/:title",
-        component: "./src/templates/About.vue"
-      }
-    ],
     Projects: [
       {
         path: "/projects/:title",
