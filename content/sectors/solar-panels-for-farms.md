@@ -45,6 +45,6 @@ benefits_list:
   heading: BENEFITS AT A GLANCE
   subheading: 'How can solar panels benefit my farm? '
 ---
-# Interested or would like more information?
+### Interested or would like more information?
 
 New Dawn Solar is highly experienced in supplying agricultural building solar panels. If you would like more informational along with the facts and the figures on how you can benefit from solar please get in touch by requesting a[ **fee consultation**.](/contact)

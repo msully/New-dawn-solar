@@ -46,4 +46,6 @@ benefits_list:
   heading: BENEFITS AT A GLANCE
   subheading: Reducing business overheads and improving sustainability
 ---
-If you are interested [contact us today ](/contact)to arrange for one of our specialists to provide a Solar Consultation.
+### Interested or would like more information?
+
+New Dawn Solar is highly experienced in supplying **Commercial Solar Solutions**. If you would like more informational along with the facts and the figures on how you can benefit from solar please get in touch by requesting a[ **fee consultation**.](/contact)
