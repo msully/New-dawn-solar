@@ -177,7 +177,7 @@ collections:
                     label: "Partner logo",
                     name: "partner_logo",
                     widget: "list",
-                    fields: [{ label: "Logo", name: "logo", widget: "image" }],
+                    fields: [{ label: "Logo", name: "logo", widget: "image" }, { label: "Alt text", name: "alt", widget: "text" }],
                   },
                 ],
             }

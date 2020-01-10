@@ -32,20 +32,13 @@
     <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-24">
       <div class="flex flex-col lg:flex-row lg:-mx-8">
         <div class="w-full lg:w-1/2 lg:px-8">
-          <h2 class="text-3xl leading-tight font-bold mt-4">How Does Solar Energy Work?</h2>
-          <p
-            class="mt-2 leading-relaxed"
-          >Considered a promising energy source for decades, solar panels can be found on everything from rooftops and roadside signs to stadiums and spacecrafts. Solar energy works by taking energy from the sun and changing it into electricity for homes and businesses.</p>
-          <p
-            class="mt-2 leading-relaxed"
-          >Once solar panels are installed on your roof and begin to create energy, there are a few steps required to turn it into energy your home or business can use. As the sun hits the solar panels, they generate direct current (DC) electricity, where the electrons flow around a circuit in one direction. In order for your home to use this energy, it must be converted from DC electricity to alternating current (AC) electricity, where the electrons are pushed and pulled.</p>
-          <p
-            class="mt-2 leading-relaxed"
-          >When you have solar panels installed on your home, you will also have a solar inverter installed. The solar inverter changes the DC output of the solar panels into AC electricity that your home can use.</p>
+          <h2 class="text-3xl leading-tight font-bold mt-4">{{ home.section_how.heading }}</h2>
+          <p class="text-lg mt-4 font-semibold">{{ home.section_how.subheading }}</p>
+          <p class="markdown mt-4 font-normal">{{ home.section_how.body }}</p>
         </div>
 
         <div class="w-full md:max-w-md md:mx-auto lg:w-1/2 lg:px-8 mt-12 mt:md-0">
-          <img src="../images/bg-how-it-works.svg" alt="How Solar works" />
+          <g-image :src=home.section_how.cover_image alt="How Solar works" />
         </div>
       </div>
     </section>
@@ -56,31 +49,18 @@
     <!-- Start partners -->
     <section class="relative bg-gray-200 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-24">
       <div class="partners">
-        <h2 class="text-3xl leading-tight font-bold">Strategic Partnerships</h2>
+        <h2 class="text-3xl leading-tight font-bold">{{ home.section_partners.heading}}}</h2>
         <p
           class="text-gray-600 mt-2"
-        >We have formed strategic partnerships with several local and international suppliers. In doing so we ensure a superior product, unsurpassed service capability, excellent warranties and spare parts availability.</p>
+        >{{ home.section_partners.subheading }}</p>
 
-        <ul class="flex flex-wrap justify-center align-center content-between pt-8">
+        <ul v-for="item in home.section_partners.partner_logo" :key="item.id" class="flex flex-wrap justify-center align-center content-between pt-8">
           <li>
-            <img
+            <g-image
               class="p-8 w-56"
-              src="../images/SolarEdge_logo.png"
-              alt="Partner company SolarEdge"
+              :src=item.logo
+              :alt=item.alt
             />
-          </li>
-          <li>
-            <img
-              class="p-8 w-56"
-              src="../images/canadianSolar_logo.png"
-              alt="Partner company CanadianSolar "
-            />
-          </li>
-          <li>
-            <img class="p-8 w-48" src="../images/SMA_logo.svg" alt="Partner company SMA" />
-          </li>
-          <li>
-            <img class="p-8 w-56" src="../images/mecer_logo.png" alt="Partner company Mecer" />
           </li>
         </ul>
       </div>
