@@ -116,15 +116,7 @@ collections:
               fields:
                 [
                   { label: "Heading", name: "heading", widget: "text" },
-                  {
-                    label: "Words",
-                    name: "words",
-                    widget: "list",
-                    fields:
-                      [
-                        { label: "Heading Ticker words", name: "text", hint: "Only add one word for each entry", widget: "string" },
-                      ],
-                  },
+                  { label: "Words", name: "words", widget: "list", default: ["Farming"]},
                   { label: "Subheading", name: "subheading", widget: "text" },
                 ],
             }

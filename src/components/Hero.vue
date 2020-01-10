@@ -14,8 +14,7 @@
       <div class="lg:w-3/4 relative z-10 h-100 lg:mt-8">
         <div>
           <h1 class="text-white text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
-            Solar is reliable
-            <br />for
+            {{ banner.heading }}
             <VueTyper
               :text="words"
               :repeat="Infinity"
@@ -32,9 +31,7 @@
           </h1>
 
           <p class="text-blue-100 text-xl md:text-2xl leading-snug mt-4">
-            Find out how we can help you secure reliable power with
-            <strong>SOLAR Energy</strong>
-            <br />for your next project.
+            {{ banner.subheading }}
           </p>
           <a
             href="/contact"
@@ -164,7 +161,7 @@
 
 
 <script>
-const words = ["Farming", "Commercial", "Retail", "Residetial", "Developers"];
+const words = banner.words;
 
 export default {
   name: "Hero",

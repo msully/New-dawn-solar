@@ -5,12 +5,7 @@ section_banner:
   subheading: |-
     Find out how we can help you secure reliable power with SOLAR Energy
     for your next project.
-  words:
-    - text: Farming
-    - text: Commercial
-    - text: Retail
-    - text: Residetial
-    - text: Developers
+  words: ["farming", "Commercial"]
 section_solar:
   features:
     - heading: Lower your energy bills
