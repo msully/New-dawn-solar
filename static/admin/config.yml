@@ -104,7 +104,7 @@ collections:
     files:
       - name: "home"
         label: "Home page"
-        file: "data/home.yaml"
+        file: "data/home.yml"
         description: "Home page content"
         fields: # The fields for each document, usually in front matter
           - { label: "Title", name: "title", widget: "string" }

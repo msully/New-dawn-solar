@@ -125,7 +125,7 @@
 <script>
 import Projects from "~/components/Projectslist";
 import Hero from "~/components/Hero";
-import home from '@/data/home.yaml';
+import home from '@/data/home.yml';
 
 export default {
   data() {
