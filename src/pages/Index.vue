@@ -264,7 +264,6 @@
 <script>
 import Projects from "~/components/Projectslist";
 import home from '@/data/home.yml';
-import { VueTyper } from 'vue-typer';
 
 const words = home.section_banner.words;
 
