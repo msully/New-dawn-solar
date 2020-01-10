@@ -55,15 +55,7 @@ module.exports = {
       }
     },
     {
-      use: `gridsome-plugin-netlify-cms`,
-      options: {
-        modulePath: `src/cms/index.js`,
-        configPath: `src/cms/config.yml`,
-        htmlPath: `src/cms/index.html`,
-        publicPath: `/cms`,
-        htmlTitle: `Netlify CMS`,
-        enableIdentityWidget: false
-      }
+      use: "gridsome-plugin-netlify-cms",
     }
   ],
   css: {
