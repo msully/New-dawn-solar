@@ -6,9 +6,9 @@
       class="cover bg-blue-teal-gradient relative bg-blue-600 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 overflow-hidden py-48 flex min-h-screen"
     >
       <div class="h-full absolute top-0 left-0 z-0">
-        <img
-          src="../images/solar_dawn.jpeg"
-          alt="Sun rising over a solar installation"
+        <g-image
+          :src=home.section_banner.banner_image
+          :alt=home.section_banner.alt
           class="w-full h-full object-cover opacity-75"
         />
       </div>

@@ -118,6 +118,13 @@ collections:
                   { label: "Heading", name: "heading", widget: "text" },
                   { label: "Words", name: "words", widget: "list", default: ["Farming"]},
                   { label: "Subheading", name: "subheading", widget: "text" },
+                  {
+                    label: "Banner Image",
+                    name: "banner_image",
+                    widget: "image",
+                    required: true,
+                  },
+                  { label: "Image Alt text", name: "alt", widget: "text" },
                 ],
             }
           - {
