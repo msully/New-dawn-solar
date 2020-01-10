@@ -17,8 +17,9 @@
         <div>
           <h1 class="text-white text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
             {{ home.section_banner.heading }}
+            <br>
             <VueTyper
-              :text=home.section_banner.words.text
+              :text=home.section_banner.words
               :repeat="Infinity"
               :shuffle="false"
               initial-action="typing"
