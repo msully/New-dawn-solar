@@ -5,7 +5,11 @@ section_banner:
   subheading: |-
     Find out how we can help you secure reliable power with SOLAR Energy
     for your next project.
-  words: ["farming", "Commercial"]
+  words:
+    - Farming
+    - Commercial
+    - Residential
+    - Property Development
 section_solar:
   features:
     - heading: Lower your energy bills
@@ -47,14 +51,18 @@ section_how:
     solar panels into AC electricity that your home can use.
   cover_image: /images/uploads/bg-how-it-works.svg
   heading: How Does Solar Energy Work?
-  subheading: ' '
+  subheading: '  '
 section_partners:
   heading: Strategic Partnerships
   partner_logo:
-    - logo: /images/uploads/canadianSolar_logo.png
-    - logo: /images/uploads/SolarEdge_logo.png
-    - logo: /images/uploads/mecer_logo.png
-    - logo: /images/uploads/SMA_logo.svg
+    - alt: Canadian Solar
+      logo: /images/uploads/canadianSolar_logo.png
+    - alt: Solar Edge
+      logo: /images/uploads/SolarEdge_logo.png
+    - alt: Mecer
+      logo: /images/uploads/mecer_logo.png
+    - alt: SMA
+      logo: /images/uploads/SMA_logo.svg
   subheading: >-
     We have formed strategic partnerships with several local and international
     suppliers. In doing so we ensure a superior product, unsurpassed service
