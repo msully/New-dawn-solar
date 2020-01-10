@@ -98,13 +98,13 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "home"
-    label: "Home page"
+  - name: "data"
+    label: "Landing pages"
     delete: false # Prevent users from deleting documents in this collection
     files:
       - name: "home"
         label: "Home page"
-        file: "data/home.yml"
+        file: "src/data/home.yml"
         description: "Home page content"
         fields: # The fields for each document, usually in front matter
           - { label: "Title", name: "title", widget: "string" }
