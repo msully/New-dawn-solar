@@ -7,8 +7,8 @@
     >
       <div class="h-full absolute top-0 left-0 z-0">
         <g-image
-          :src=home.section_banner.banner_image
-          :alt=home.section_banner.alt
+          :src="home.section_banner.banner_image"
+          :alt="home.section_banner.alt"
           class="w-full h-full object-cover opacity-75"
         />
       </div>
@@ -168,7 +168,7 @@
           <p class="text-lg mt-4 font-semibold">
             {{ home.section_solar.subheading }}
           </p>
-          <p class="markdown mt-4 font-normal">
+          <p class="markdown mt-4 font-normal whitespace-pre-wrap">
             {{ home.section_solar.body }}
           </p>
         </div>
@@ -193,7 +193,7 @@
         <div class="w-full lg:w-1/2 lg:px-8">
           <h2 class="text-3xl leading-tight font-bold mt-4">{{ home.section_how.heading }}</h2>
           <p class="text-lg mt-4 font-semibold">{{ home.section_how.subheading }}</p>
-          <p class="markdown mt-4 font-normal">{{ home.section_how.body }}</p>
+          <div class="markdown mt-4 font-normal whitespace-pre-wrap">{{ home.section_how.body }}</div>
         </div>
 
         <div class="w-full md:max-w-md md:mx-auto lg:w-1/2 lg:px-8 mt-12 mt:md-0">
@@ -266,8 +266,6 @@ import Projects from "~/components/Projectslist";
 import home from '@/data/home.yml';
 
 const words = home.section_banner.words;
-
-console.log(words);
 
 export default {
 
