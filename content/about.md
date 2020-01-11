@@ -1,8 +1,8 @@
 ---
 title: About
 date: 2020-01-11T13:12:43.318Z
-cover_image: /images/uploads/Rene Frei Panels.JPG
-alt: Invertor installation
+cover_image: /images/uploads/mariana-proenca-GXiHwHkIdVs-unsplash.jpg
+alt: Solar installation in a field
 ---
 ## [](http://localhost:8080/about#meet-the-company)Meet the company
 
