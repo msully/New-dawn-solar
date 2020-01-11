@@ -2,6 +2,7 @@
 title: About
 date: 2020-01-11T05:46:56.233Z
 published: true
+cover_image: /images/uploads/Rene Frei Inverter.JPG
 ---
 ## Meet the company
 
