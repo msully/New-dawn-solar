@@ -96,7 +96,7 @@
         Simple button that will open the modal.
       -->
       <div data-netlify-identity-button class="text-sm text-gray-400 lg:mt-2 lg:mx-4">
-        <a href="#" title="" class="opacity-75 hover:opacity-100">Login</a>
+        <a href="/admin" title="" class="opacity-75 hover:opacity-100">Login</a>
       </div>
     </footer>
   
