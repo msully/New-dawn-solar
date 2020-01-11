@@ -1,7 +1,7 @@
 ---
 title: About
 date: 2020-01-11T13:12:43.318Z
-cover_image: /images/uploads/Rene Frei  Battery Box.JPG
+cover_image: /images/uploads/Rene Frei Panels.JPG
 alt: Invertor installation
 ---
 ## [](http://localhost:8080/about#meet-the-company)Meet the company
