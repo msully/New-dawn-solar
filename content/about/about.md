@@ -17,14 +17,9 @@ The Directors are all experienced in this sector with the Andersons having 4 yea
 
 More and more South Africans from all walks of life and circumstances are asking how Solar and other interventions like Wind can benefit them? This is in fact a world - wide trend and it’s suggested that by 2050 as much as 50% of the Worlds power will be harnessed from using the sun and wind! From a Solar intervention point of view our business is focussed on two general areas in the property industry being :
 
-**Residential Homes :**\
-Individually owned homes where there is adequate roof space and an Energy bill with a high tariff (as most are), a solar scheme is possible and large homes where there are lots of appliances, with ducted Aircon, under floor heating etc , a solar scheme works very well. In the event of having a bonded property, the banks are very keen to finance Solar schemes, either by extending a bond or creating one, which allows for the scheme to be paid for over time.
+**Residential Homes :** Individually owned homes where there is adequate roof space and an Energy bill with a high tariff (as most are), a solar scheme is possible and large homes where there are lots of appliances, with ducted Aircon, under floor heating etc , a solar scheme works very well. In the event of having a bonded property, the banks are very keen to finance Solar schemes, either by extending a bond or creating one, which allows for the scheme to be paid for over time.
 
-**Residential Estates :**\
-Developers of residential estates are increasingly using Solar as a substitute power supply and this introduces the added benefit of solar to a Landlord which will be dealt with below. Suffice it to note that Property Developers in both residential & commercial property can employ solar energy as another income stream either to subsidize tenants or profit by saving on the cost of electrical power. In general solar power is seen as a good option in a residential setting as the house is occupied 7 days / week. Although with large early morning or night time draw on power, storage through batteries is generally required and recommended.
-
-**Commercial :**\
-Commercial properties are our main target areas for solar installation. Most Commercial buildings operate during daylight hours with others being 7 days a week and at night.
+**Residential Estates :** Developers of residential estates are increasingly using Solar as a substitute power supply and this introduces the added benefit of solar to a Landlord which will be dealt with below. Suffice it to note that Property Developers in both residential & commercial property can employ solar energy as another income stream either to subsidize tenants or profit by saving on the cost of electrical power. In general solar power is seen as a good option in a residential setting as the house is occupied 7 days / week. Although with large early morning or night time draw on power, storage through batteries is generally required and recommended.
 
 **Commercial Property Types :**​
 
