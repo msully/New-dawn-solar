@@ -20,7 +20,7 @@ More and more South Africans from all walks of life and circumstances are asking
 
 **Residential Estates :**\ Developers of residential estates are increasingly using Solar as a substitute power supply and this introduces the added benefit of solar to a Landlord which will be dealt with below. Suffice it to note that Property Developers in both residential & commercial property can employ solar energy as another income stream either to subsidize tenants or profit by saving on the cost of electrical power. In general solar power is seen as a good option in a residential setting as the house is occupied 7 days / week. Although with large early morning or night time draw on power, storage through batteries is generally required and recommended.
 
-\**Commercial :**\ Commercial properties are our main target areas for solar installation. Most Commercial buildings operate during daylight hours with others being 7 days a week and at night.
+\*\*Commercial :\*\*\ Commercial properties are our main target areas for solar installation. Most Commercial buildings operate during daylight hours with others being 7 days a week and at night.
 
 ###### \
 
