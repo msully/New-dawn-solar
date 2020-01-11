@@ -42,6 +42,7 @@
         </div>
       </div>
       </div>
+      <InTouch />
     </article>
   </Layout>
 </template>
@@ -72,7 +73,13 @@ query Sector ($path: String) {
 
 
 <script>
+
+import InTouch from "../components/InTouch";
+
 export default {
+  components: {
+    InTouch
+  },
   metaInfo() {
     return {
       title: this.$page.sector.title

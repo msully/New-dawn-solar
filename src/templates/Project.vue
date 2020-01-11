@@ -16,6 +16,7 @@
           </div>
         </div>
       </div>
+      <InTouch />
     </article>
   </Layout>
 </template>
@@ -31,9 +32,14 @@ query Project ($path: String) {
 }
 </page-query>
 
-
 <script>
+
+import InTouch from "../components/InTouch";
+
 export default {
+  components: {
+    InTouch
+  },
   metaInfo() {
     return {
       title: this.$page.project.title

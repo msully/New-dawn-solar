@@ -15,6 +15,7 @@
           </div>
         </div>
         </div>
+        <InTouch />
       </article>
   </Layout>
 </template>
@@ -31,7 +32,13 @@ query  {
 </page-query>
 
 <script>
+
+import InTouch from "../components/InTouch";
+
 export default {
+  components: {
+    InTouch
+  },
   metaInfo: {
     title: "About us"
   }
