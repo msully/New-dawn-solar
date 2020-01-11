@@ -14,12 +14,6 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - {
-          label: "Published",
-          name: "published",
-          widget: "boolean",
-          default: true,
-        }
-      - {
           label: "Cover Image",
           name: "cover_image",
           widget: "image",
@@ -37,12 +31,6 @@ collections:
       - { label: "Sector", name: "title", widget: "string" }
       - { label: "Heading", name: "heading", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
-      - {
-          label: "Published",
-          name: "published",
-          widget: "boolean",
-          default: true,
-        }
       - {
           label: "Cover Image",
           name: "cover_image",
@@ -86,17 +74,12 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - {
-          label: "Published",
-          name: "published",
-          widget: "boolean",
-          default: true,
-        }
-      - {
           label: "Cover Image",
           name: "cover_image",
           widget: "image",
           required: false,
         }
+      - { label: "Image Alt text", name: "alt", widget: "text" } 
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "data"
     label: "Landing pages"
