@@ -6,7 +6,7 @@
           <div class="w-full lg:px-8">
             <g-image 
             :src="$page.about.cover_image"
-            :alt="$page.project.title"
+            :alt="$page.about.title"
             class="w-full h-48 object-cover"
             />
             <h1 class="text-3xl leading-tight font-bold mt-4">{{ $page.about.title }}</h1>
@@ -23,6 +23,7 @@
 query  {
   about: about (path: "/content/about/") {
     title
+    cover_image
     content
   }
 }
