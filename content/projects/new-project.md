@@ -2,7 +2,7 @@
 title: Project 2
 date: 2019-11-28T10:34:07.479Z
 published: true
-cover_image: /images/uploads/sola-future.jpg
+cover_image: /images/uploads/Rene Frei  Battery Box.JPG
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua.
