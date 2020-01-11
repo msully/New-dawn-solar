@@ -24,7 +24,6 @@ query  {
   about: about (path: "/content/about/") {
     title
     content
-    cover_image
   }
 }
 </page-query>
