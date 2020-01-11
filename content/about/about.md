@@ -22,16 +22,14 @@ Individually owned homes where there is adequate roof space and an Energy bill w
 **Residential Estates :**\
 Developers of residential estates are increasingly using Solar as a substitute power supply and this introduces the added benefit of solar to a Landlord which will be dealt with below. Suffice it to note that Property Developers in both residential & commercial property can employ solar energy as another income stream either to subsidize tenants or profit by saving on the cost of electrical power. In general solar power is seen as a good option in a residential setting as the house is occupied 7 days / week. Although with large early morning or night time draw on power, storage through batteries is generally required and recommended.
 
-\
 **Commercial :**\
 Commercial properties are our main target areas for solar installation. Most Commercial buildings operate during daylight hours with others being 7 days a week and at night.
 
-###### \
 **Commercial Property Types :**​
 
 * **Retail –** being 7 days in operation and mainly in the day time, shopping centre Solar installations work well for Landlords.
 * **Factories –**depending on the power draw (highly variable) factories with large roofs are great solar options. Warehouses with large roofs hold less appeal unless, for some reason, they draw substantial power, as some of course do, particularly where refrigeration and air conditioning is used.
-* **Hospitals/Clinics –** as 7 day week operations and big Energy users Hospitals are great for solar and in our former business we installed solar on two Hospitals, both significant projects.
+* **Hospitals / Clinics –** as 7 day week operations and big Energy users Hospitals are great for solar and in our former business we installed solar on two Hospitals, both significant projects.
 * **Hotels / Lodges** – also 7 days / week and with day time energy demand, these type of facilities are also well suited to solar energy installations.
 * **Agro Processing facilities –** these are good where they operate 12 months of the year.
 
