@@ -48,6 +48,12 @@
             <li class="md:ml-4">
               <a
                 class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800"
+                href="/"
+              >Home</a>
+            </li>
+            <li class="md:ml-4">
+              <a
+                class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800"
                 href="/sectors/farming"
               >Farming</a>
             </li>
