@@ -1,6 +1,6 @@
 ---
 title: New Dawn Solar
-date: 2020-01-13T08:42:51.135Z
+date: 2020-01-13T00:00:00.000Z
 cover_image: /images/uploads/solar_installation-01.jpg
 alt: Installation team installing a solar system.
 ---
