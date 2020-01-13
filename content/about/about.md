@@ -33,7 +33,8 @@ Commercial properties are our main target areas for solar installation. Most Com
 * **Hotels / Lodges** – also 7 days / week and with day time energy demand, these type of facilities are also well suited to solar energy installations.
 * **Agro Processing facilities –** these are good where they operate 12 months of the year.
 
-**Other Considerations :**\
+**Other Considerations:**
+
 A solar installation is a technical intervention on a property and consequently requires careful thought and planning with issues of financing, return on investment, payback being foremost in most large user’s minds. In most residential schemes it’s the utility of the solar and the desire most people have to get free of Government and Municipal control, that’s the principal driver. Infrastructure degradation is of major concern and we can expect major extended breakdowns. In our role as Energy Developers we use Ian as our internal Technical expert. We also use Dave Offerman, Ian experienced Engineer, in formulating strategy and we expect him to play an important role in our company.
 
 Solar schemes need to be funded either by clients using their own resources or with borrowed money and Banks together with other lenders are increasingly looking at lending into this sector.
