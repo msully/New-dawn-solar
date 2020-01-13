@@ -31,6 +31,25 @@ module.exports = {
   },
   plugins: [
     {
+      use: "gridsome-plugin-pwa",
+      options: {
+        title: "Gridsome",
+        startUrl: "/",
+        display: "standalone",
+        statusBarStyle: "default",
+        manifestPath: "manifest.json",
+        disableServiceWorker: true,
+        serviceWorkerPath: "service-worker.js",
+        cachedFileTypes: "js,json,css,html,png,jpg,jpeg,svg",
+        shortName: "Gridsome",
+        themeColor: "#666600",
+        backgroundColor: "#ffffff",
+        icon: "/assets/img/New Dawn Solar_LOGO_Full Colour.1ee212b5.png", // must be provided
+        msTileImage: "",
+        msTileColor: "#666600"
+      }
+    },
+    {
       // Create About from Markdown files
       use: "@gridsome/source-filesystem",
       options: {
