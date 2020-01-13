@@ -9,7 +9,7 @@ New Dawn Solar is a new business with former shareholders of a nationally linked
 * **Energy Auditing and Energy Efficiency Planning/Solutions.** We are very skilled in this area and the first step in most projects is to meter the existing supply and assess Municipal or other Bills. Through this interaction the billing is corrected with tariff correction, lighting interventions, timing control on certain Appliances and the like.
 * **Energy Solutions.** Through the use of Solar power we are able to design, install & commission solar schemes based on the correct sizing of the installation and where the client can benefit from such intervention. Not all Solar schemes stack up particularly in low or heavily subsidized Tariff scenarios though it’s fair to say that in the modern South African environment ,with increasing tariffs, just about all schemes are beneficial.
 
-**So, why convert to Solar?**
+### **So, why convert to Solar?**
 
 More and more South Africans from all walks of life and circumstances are asking how Solar and other interventions like Wind can benefit them? This is in fact a world - wide trend and it’s suggested that by 2050 as much as 50% of the Worlds power will be harnessed from using the sun and wind! From a Solar intervention point of view our business is focussed on two general areas in the property industry being :
 
