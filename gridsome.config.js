@@ -31,6 +31,14 @@ module.exports = {
   },
   plugins: [
     {
+      // Create About from Markdown files
+      use: "@gridsome/source-filesystem",
+      options: {
+        typeName: "About",
+        path: "content/about/*.md"
+      }
+    },
+    {
       // Create Projects from markdown files
       use: "@gridsome/source-filesystem",
       options: {
