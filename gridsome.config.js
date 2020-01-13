@@ -31,15 +31,7 @@ module.exports = {
   },
   plugins: [
     {
-      // Create Services from markdown files
-      use: "@gridsome/source-filesystem",
-      options: {
-        typeName: "About",
-        path: "content/about.md"
-      }
-    },
-    {
-      // Create Services from markdown files
+      // Create Projects from markdown files
       use: "@gridsome/source-filesystem",
       options: {
         typeName: "Projects",
