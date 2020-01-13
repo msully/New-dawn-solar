@@ -1,6 +1,6 @@
 ---
-title: About
-date: 2020-01-13T08:42:51.135Z
+title: New Dawn Solar
+date: 2020-01-13T00:00:00.000Z
 cover_image: /images/uploads/solar_installation-01.jpg
 alt: Installation team installing a solar system.
 ---
@@ -9,7 +9,7 @@ New Dawn Solar is a new business with former shareholders of a nationally linked
 * **Energy Auditing and Energy Efficiency Planning/Solutions.** We are very skilled in this area and the first step in most projects is to meter the existing supply and assess Municipal or other Bills. Through this interaction the billing is corrected with tariff correction, lighting interventions, timing control on certain Appliances and the like.
 * **Energy Solutions.** Through the use of Solar power we are able to design, install & commission solar schemes based on the correct sizing of the installation and where the client can benefit from such intervention. Not all Solar schemes stack up particularly in low or heavily subsidized Tariff scenarios though it’s fair to say that in the modern South African environment ,with increasing tariffs, just about all schemes are beneficial.
 
-**So, why convert to Solar?**
+### **So, why convert to Solar?**
 
 More and more South Africans from all walks of life and circumstances are asking how Solar and other interventions like Wind can benefit them? This is in fact a world - wide trend and it’s suggested that by 2050 as much as 50% of the Worlds power will be harnessed from using the sun and wind! From a Solar intervention point of view our business is focussed on two general areas in the property industry being :
 
@@ -33,7 +33,8 @@ Commercial properties are our main target areas for solar installation. Most Com
 * **Hotels / Lodges** – also 7 days / week and with day time energy demand, these type of facilities are also well suited to solar energy installations.
 * **Agro Processing facilities –** these are good where they operate 12 months of the year.
 
-**Other Considerations :**\
+**Other Considerations:**
+
 A solar installation is a technical intervention on a property and consequently requires careful thought and planning with issues of financing, return on investment, payback being foremost in most large user’s minds. In most residential schemes it’s the utility of the solar and the desire most people have to get free of Government and Municipal control, that’s the principal driver. Infrastructure degradation is of major concern and we can expect major extended breakdowns. In our role as Energy Developers we use Ian as our internal Technical expert. We also use Dave Offerman, Ian experienced Engineer, in formulating strategy and we expect him to play an important role in our company.
 
 Solar schemes need to be funded either by clients using their own resources or with borrowed money and Banks together with other lenders are increasingly looking at lending into this sector.
