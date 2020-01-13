@@ -18,6 +18,7 @@
         <button
           @click="toggle"
           type="button"
+          aria-label="Menu"
           class="px-2 text-gray-600 hover:text-gray-900 focus:outline-none focus:text-gray-900"
         >
           <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
