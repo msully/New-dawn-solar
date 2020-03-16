@@ -2,8 +2,7 @@
 title: Commercial
 heading: 'Delivering financial savings, carbon reductions and energy independence'
 date: 2019-11-29T13:13:06.366Z
-published: true
-cover_image: /images/uploads/sola-future.jpg
+cover_image: /images/uploads/science-in-hd-joGs6hU_EKE-unsplash.jpg
 description: >-
   Working with blue-chip companies, local authorities and SMEs across all
   industry sectors, we supply South African businesses with a range of turn-key
