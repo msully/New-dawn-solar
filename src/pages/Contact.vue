@@ -38,7 +38,7 @@
                           name="contact"
                           method="POST"
                           v-on:submit.prevent="handleSubmit"
-                          action="/success/"
+                          action="/"
                           data-netlify="true"
                           class="w-full max-w-lg"
                           data-netlify-honeypot="bot-field"
@@ -215,9 +215,8 @@ export default {
       fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: this.encode({
-          "form-name": e.target.getAttribute("name"),
-          ...this.formData
+        body: this.encode({ "form-name": e.target.getAttribute("name"),
+        ...this.formData
         })
       })
         .then(() => this.$router.push("/"))
