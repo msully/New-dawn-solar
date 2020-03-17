@@ -34,7 +34,8 @@
                         Just fill in the form below and one of our team members will contact you for a chat.
                       </p>
                       <div class="text-lg sm:text-lg mb-16">
-                        <form  name="new-dawn-form" data-netlify="true" class="w-full max-w-lg">
+                        
+                        <form  name="contact" method="POST" data-netlify="true" class="w-full max-w-lg">
                           <div class="flex flex-wrap -mx-3 mb-6">
                             <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                               <label
@@ -99,6 +100,7 @@
                                 class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                                 for="grid-options"
                               >How can we help?</label>
+                            
                               <div class="relative">
                                 <select
                                   class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
