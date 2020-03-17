@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-100">
     <section
-      class="cover bg-blue-teal-gradient relative bg-blue-600 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 overflow-hidden py-48 flex min-h-screen"
+      class="cover bg-orange-gradient relative bg-blue-600 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 overflow-hidden py-48 flex min-h-screen"
     >
       <div class="h-full absolute top-0 left-0 z-0">
         <img
@@ -30,9 +30,7 @@
             />
           </h1>
 
-          <p class="text-blue-100 text-xl md:text-2xl leading-snug mt-4">
-            {{ banner.subheading }}
-          </p>
+          <p class="text-blue-100 text-xl md:text-2xl leading-snug mt-4">{{ banner.subheading }}</p>
           <a
             href="/contact"
             class="px-8 py-4 bg-orange-500 hover:bg-orange-800 text-white rounded inline-block mt-8 font-semibold"
@@ -75,7 +73,7 @@
             </div>
             <h4 class="text-xl font-bold mt-4">Farming</h4>
             <p class="mt-1">Solar for farming.</p>
-             <div class="p-2 mt-4">
+            <div class="p-2 mt-4">
               <g-link
                 to="/sectors/farming"
                 class="text-sm md:text-base uppercase text-orange-600 font-semibold tracking-wider border-b-2 border-transparent hover:border-orange-800 hover:border-b-2"
@@ -110,7 +108,7 @@
             </div>
             <h4 class="text-xl font-bold mt-4">Commercial</h4>
             <p class="mt-1">Solar for business and commercial.</p>
-             <div class="p-2 mt-4">
+            <div class="p-2 mt-4">
               <g-link
                 to="/sectors/commercial"
                 class="text-sm md:text-base uppercase text-orange-600 font-semibold tracking-wider border-b-2 border-transparent hover:border-orange-800 hover:border-b-2"

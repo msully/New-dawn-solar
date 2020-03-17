@@ -2,7 +2,7 @@
   <Layout>
     <article class="lg:px-8">
       <div class="flex flex-col lg:flex-row mt-6 md:mt24">
-        <Projects :projects="$page.projects.edges" />
+        <Projects v-if="$page.projects.edges" :projects="$page.projects.edges" />
       </div>
     </article>
   </Layout>

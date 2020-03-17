@@ -48,38 +48,38 @@
           <ul class="md:flex items-center justify-between">
             <li class="md:ml-4">
               <a
-                class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800"
+                class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800 visited:border-b-2 visited:border-orange-800"
                 href="/"
               >Home</a>
             </li>
             <li class="md:ml-4">
               <a
-                class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800"
+                class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800 visited:border-b-2 visited:border-orange-800"
                 href="/sectors/farming"
               >Farming</a>
             </li>
             <li class="md:ml-4">
               <a
-                class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800"
+                class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800 visited:border-b-2 visited:border-orange-800"
                 href="/sectors/commercial"
               >Commercial</a>
             </li>
             <li class="md:ml-4">
               <a
-                class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800"
+                class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800 visited:border-b-2 visited:border-orange-800"
                 href="/sectors/residential"
               >Residential</a>
             </li>
-            <li class="md:ml-4">
+            <!-- <li class="md:ml-4">
               <a
-                class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800"
+                class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800 visited:border-b-2 visited:border-orange-800"
                 href="/projects"
               >Projects</a>
-            </li>
+            </li> -->
 
             <li class="md:ml-4">
               <a
-                class="py-2 inline-block md:hidden lg:block font-semibold hover:text-orange-800"
+                class="py-2 inline-block md:px-2 font-semibold hover:text-orange-800 visited:border-b visited:border-orange-800"
                 href="/about"
               >About Us</a>
             </li>

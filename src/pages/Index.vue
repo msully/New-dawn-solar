@@ -3,12 +3,13 @@
     <!-- Start Hero -->
     <div class="bg-gray-100">
       <section
-        class="cover bg-blue-teal-gradient relative bg-blue-600 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 overflow-hidden py-48 flex min-h-screen">
-        <div class="h-full absolute top-0 left-0 z-0">
+        class="z-0 cover bg-orange-gradient relative bg-blue-600 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 overflow-hidden py-48 flex min-h-screen"
+      >
+        <div class="z-0 h-full absolute top-0 left-0">
           <g-image
             :src="home.section_banner.banner_image"
             :alt="home.section_banner.alt"
-            class="w-full h-full object-cover opacity-75"
+            class="z-0 w-full h-full object-cover opacity-75"
           />
         </div>
 
@@ -41,13 +42,18 @@
             >Get a Quote</a>
           </div>
         </div>
+        <div class="relative z-10 h-100 bg-orange-400 -mt-10">
+          <svg class="fill-current text-white hidden md:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill-opacity="1" d="M0,224L1440,32L1440,320L0,320Z"></path>
+          </svg>
+      </div>
       </section>
-
-      <section class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-16 bg-white">
+      
+      <section class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-10 bg-white">
         <div class="md:flex md:flex-wrap text-center md:-mx-4 -mt-40 md:-mt-48">
           <div class="md:w-1/2 md:px-4 lg:w-1/3">
             <div class="block bg-white rounded-lg border border-gray-300 p-8">
-              <div class="inline-block text-white -mt-64">
+              <div class="inline-block text-white -mt-10">
                 <svg
                   role="img"
                   title="Farming sector"
@@ -91,7 +97,7 @@
           </div>
           <div class="md:w-1/2 md:px-4 mt-16 md:mt-0 lg:w-1/3">
             <div class="bg-white rounded-lg border border-gray-300 p-8">
-              <div class="inline-block text-white -mt-64">
+              <div class="inline-block text-white -mt-10">
                 <svg
                   role="img"
                   title="Commercial sector"
@@ -126,7 +132,7 @@
           </div>
           <div class="md:w-1/2 md:px-4 mt-16 md:mt-8 lg:mt-0 lg:w-1/3">
             <div class="bg-white rounded-lg border border-gray-300 p-8">
-              <div class="inline-block text-white -mt-64">
+              <div class="inline-block text-white -mt-10">
                 <svg
                   role="img"
                   title="Home owners and developers"
@@ -161,7 +167,7 @@
     </div>
 
     <!-- Start Why Solar -->
-    <section class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-24">
+    <section class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:pt-6 lg:pb-24">
       <div class="flex flex-col lg:flex-row lg:-mx-8">
         <div class="w-full lg:w-1/2 lg:px-8">
           <h2 class="text-3xl leading-tight font-bold mt-4">{{ home.section_solar.heading }}</h2>
@@ -197,7 +203,7 @@
     </section>
     <!-- End How it works -->
 
-    <Projects :projects="$page.projects.edges" :path="this.$route.path" />
+      <Projects v-if="$page.projects.edges" :projects="$page.projects.edges" :path="this.$route.path" />
 
     <!-- Start partners -->
     <section class="relative bg-gray-200 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-24">
@@ -215,7 +221,7 @@
 
     <!-- start cta -->
     <section
-      class="relative bg-blue-teal-gradient px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 text-center md:text-left"
+      class="relative bg-orange-gradient px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 text-center md:text-left"
     >
       <div class="md:flex md:items-center md:justify-center">
         <h2 class="text-xl font-bold text-white">
