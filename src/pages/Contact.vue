@@ -34,10 +34,23 @@
                         Just fill in the form below and one of our team members will contact you for a chat.
                       </p>
                       <div class="text-lg sm:text-lg mb-16">
-                        
-                        <form  name="contact" method="POST" data-netlify="true" class="w-full max-w-lg">
+                        <form
+                          name="contact"
+                          method="POST"
+                          v-on:submit.prevent="handleSubmit"
+                          action="/success/"
+                          data-netlify="true"
+                          class="w-full max-w-lg"
+                          data-netlify-honeypot="bot-field"
+                        >
                           <div class="flex flex-wrap -mx-3 mb-6">
                             <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                              <p hidden>
+                                <label>
+                                  Don’t fill this out:
+                                  <input name="bot-field" />
+                                </label>
+                              </p>
                               <label
                                 class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                                 for="grid-first-name"
@@ -48,8 +61,9 @@
                                 type="text"
                                 placeholder="First Name"
                                 required
+                                name="first_name"
+                                v-model="formData.first_name"
                               />
-                              
                             </div>
                             <div class="w-full md:w-1/2 px-3">
                               <label
@@ -62,6 +76,8 @@
                                 type="text"
                                 placeholder="Last Name"
                                 required
+                                name="last_name"
+                                v-model="formData.last_name"
                               />
                             </div>
                           </div>
@@ -77,6 +93,8 @@
                                 id="grid-city"
                                 type="text"
                                 placeholder="City"
+                                name="city"
+                                v-model="formData.city"
                               />
                             </div>
 
@@ -90,6 +108,8 @@
                                 id="grid-postcode"
                                 type="text"
                                 placeholder="Postcode"
+                                name="postcode"
+                                v-model="formData.postcode"
                               />
                             </div>
                           </div>
@@ -100,11 +120,13 @@
                                 class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                                 for="grid-options"
                               >How can we help?</label>
-                            
+
                               <div class="relative">
                                 <select
                                   class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                                   id="grid-options"
+                                  name="project"
+                                  v-model="formData.project"
                                 >
                                   <option>An agri-business building</option>
                                   <option>A commercial building</option>
@@ -144,6 +166,7 @@
                                 class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-green-700 mb-2 px-4 py-4"
                                 placeholder="Enter your message here."
                                 required
+                                v-model="formData.message"
                               ></textarea>
                             </div>
                           </div>
@@ -174,5 +197,32 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      formData: {}
+    };
+  },
+  methods: {
+    encode(data) {
+      return Object.keys(data)
+        .map(
+          key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+        )
+        .join("&");
+    },
+    handleSubmit(e) {
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: this.encode({
+          "form-name": e.target.getAttribute("name"),
+          ...this.formData
+        })
+      })
+        .then(() => this.$router.push("/"))
+        .catch(error => alert(error));
+    }
+  }
+};
 </script>
