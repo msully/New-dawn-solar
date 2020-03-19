@@ -18,7 +18,6 @@
         title
         date
         cover_image
-        published
         description
       }
     }

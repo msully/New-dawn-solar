@@ -55,7 +55,6 @@ query Sector ($path: String) {
     date (format: "D, MMMM, Y")
     path
     cover_image
-    published
     description
     content
     benefits_list {
