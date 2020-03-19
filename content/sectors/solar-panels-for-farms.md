@@ -32,7 +32,8 @@ benefits_list:
     - heading: Protect your business from power shortages
       text: >-
         Generate and store your own energy, reduce reliance on the National Grid
-        and protect your business from potential rationing and brownouts.
+        and protect your business from potential rationing and infrastructure
+        failure.
     - heading: Tax exemptions
       text: >-
         Solar panels are classed as plant and machinery and are eligible for
