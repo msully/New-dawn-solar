@@ -32,7 +32,8 @@ benefits_list:
       text: >-
         A typical commercial solar panel system will provide free energy for
         more than 25 years, achieve returns of more than 12% per annum and pay
-        back installation costs within 6-8 years.
+        back installation costs within 4-5 years for grid tied and 6-8 years for
+        off-grid.
     - heading: Save the planet and our environment
       text: >-
         Utilise clean, renewable energy to offset your corporate carbon
