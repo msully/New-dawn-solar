@@ -13,6 +13,7 @@ if (process.env.NODE_ENV === "production") postcssPlugins.push(purgecss());
 
 module.exports = {
   siteName: "Solar Solutions for Farming, Business and Homes ",
+  siteUrl: "https://newdawnsolar.co.za",
   siteDescription:
     "New Dawn Solar ( newdawnsolar.co.za ) provide a turnkey supply, installation and maintenance service for agricultural, commercial and residential solar projects and offer a range of finance options.",
   templates: {
@@ -30,6 +31,9 @@ module.exports = {
     ]
   },
   plugins: [
+    {
+      use: "@gridsome/plugin-sitemap",
+    },
     {
       use: "@gridsome/plugin-google-analytics",
       options: {
