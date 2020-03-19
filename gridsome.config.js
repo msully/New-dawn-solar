@@ -33,6 +33,10 @@ module.exports = {
   plugins: [
     {
       use: "@gridsome/plugin-sitemap",
+      options: {
+        cacheTime: 600000, // default
+        exclude: ['/projects'],
+      }
     },
     {
       use: "@gridsome/plugin-google-analytics",
