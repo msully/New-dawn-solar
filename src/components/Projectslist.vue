@@ -2,7 +2,7 @@
   <!-- Start Projects -->
   <section class="relative bg-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-24">
     <div>
-      <h2 class="text-3xl leading-tight font-bold">Our Projects</h2>
+      <h1 class="text-3xl leading-tight font-bold">Our Projects</h1>
       <p class="text-gray-600 mt-2 md:max-w-lg">
         Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
         turpis egestas.

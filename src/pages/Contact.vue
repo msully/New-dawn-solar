@@ -18,7 +18,7 @@
                 <div class="overflow-x-hidden">
                   <div class="contact-me bg-background-secondary pt-16">
                     <div class="container-inner mx-auto text-xl pb-4 relative">
-                      <h2 class="font-bold mb-6" id="contact">Get in touch</h2>
+                      <h1 class="font-bold mb-6" id="contact">Get in touch</h1>
 
                       <div
                         class="absolute right-0 top-0"

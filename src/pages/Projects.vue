@@ -32,7 +32,7 @@ import Projects from "~/components/Projectslist";
 
 export default {
   metaInfo: {
-    title: "Projects"
+    title: "Solar Projects"
   },
   components: {
     Projects

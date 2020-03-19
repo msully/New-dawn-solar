@@ -31,8 +31,9 @@ import Sectors from "~/components/SectorsList";
 
 export default {
   metaInfo: {
-    title: "Market Sectors"
-  },
+      title: "Markets sectors that we support",
+      description: "New Dawn Solar for Farming, Residential and Commercial projects"
+    },
   components: {
     Sectors
   }

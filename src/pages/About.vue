@@ -23,6 +23,7 @@
 query	{
   about (path: "/content/about/about") {
     title
+    description
     cover_image
     alt
     content
@@ -38,7 +39,8 @@ export default {
     InTouch
   },
   metaInfo: {
-    title: "About us"
+    title: "Contact us",
+    description: "Contact New Dawn Solar for to discuss your solar project. Just fill in the form below and one of our team members will contact you."
   }
 };
 </script>

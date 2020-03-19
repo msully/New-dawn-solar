@@ -27,6 +27,7 @@ query Project ($path: String) {
   project: projects (path: $path) {
     title
     date (format: "D, MMMM, Y")
+    description
     content
     cover_image
   }
@@ -40,11 +41,6 @@ import InTouch from "../components/InTouch";
 export default {
   components: {
     InTouch
-  },
-  metaInfo() {
-    return {
-      title: this.$page.project.title
-    };
   }
 };
 </script>

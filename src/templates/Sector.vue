@@ -80,10 +80,10 @@ export default {
   components: {
     InTouch
   },
-  metaInfo() {
-    return {
-      title: this.$page.sector.title
-    };
-  }
+ 
+  metaInfo: {
+      title: "Market sectors that we support",
+      description: "New Dawn Solar for Farming, Residential and Commercial projects"
+    }
 };
 </script>

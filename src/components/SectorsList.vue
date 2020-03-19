@@ -2,10 +2,9 @@
   <!-- Start Sectors-->
   <section class="relative bg-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-24">
     <div>
-      <h2 class="text-3xl leading-tight font-bold">Market Sectors we serve</h2>
+      <h1 class="text-3xl leading-tight font-bold">Market Sectors we serve</h1>
       <p class="text-gray-600 mt-2 md:max-w-lg">
-        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-        turpis egestas.
+        Solar Energy is a relatively new concept formost Property owners and the Development function we provide is to give the owner surety and advice that they are getting value in the solution provided and are getting a scheme that is properly designed and functional for the purpose required.
       </p>
     </div>
 

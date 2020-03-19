@@ -1,6 +1,8 @@
 ---
 title: New Dawn Solar
 date: 2020-01-13T00:00:00.000Z
+description: >-
+ New DawnSolar Energy (Pty)Lrdis set up as an Energy Developer in response to the need for a specialist role like this and based on the complementary skills of the company management.
 cover_image: /images/uploads/solar_installation-01.jpg
 alt: Installation team installing a solar system.
 ---

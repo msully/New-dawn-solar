@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === "production") postcssPlugins.push(purgecss());
 module.exports = {
   siteName: "Solar Solutions for Farming, Business and Homes ",
   siteDescription:
-    "Professional, fast, and reliable. Contact us with any questions you may have about installations and/or solar equipment pricing.",
+    "New Dawn Solar ( newdawnsolar.co.za ) provide a turnkey supply, installation and maintenance service for agricultural, commercial and residential solar projects and offer a range of finance options.",
   templates: {
     Projects: [
       {
