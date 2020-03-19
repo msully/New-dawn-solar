@@ -2,7 +2,6 @@
 title: Farming
 heading: Solar panels for farms
 date: 2019-11-29T09:52:43.301Z
-published: true
 cover_image: /images/uploads/dairy-under-solar.jpg
 description: >-
   New Dawn Solar provide a turnkey supply, installation and maintenance service
@@ -30,10 +29,6 @@ benefits_list:
         Pre-purchase electricity at a fixed unit price, forecast your long-term
         energy costs and protect your business against future increases in
         utility prices.
-    - heading: Diversify land-use
-      text: >-
-        Solar panels are designed with dual land use in mind and can be grazed
-        by cattle or sheep.
     - heading: Protect your business from power shortages
       text: >-
         Generate and store your own energy, reduce reliance on the National Grid
