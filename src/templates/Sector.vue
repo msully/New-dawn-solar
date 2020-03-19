@@ -81,9 +81,17 @@ export default {
     InTouch
   },
  
-  metaInfo: {
-      title: "Market sectors that we support",
-      description: "New Dawn Solar for Farming, Residential and Commercial projects"
+  metaInfo() {
+    return {
+      title: this.$page.sector.title,
+      meta: [
+        {
+          key: 'description',
+          name: 'description',
+          content: this.$page.sector.description
+        }
+      ]
     }
+  },
 };
 </script>

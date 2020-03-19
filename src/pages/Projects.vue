@@ -36,6 +36,18 @@ export default {
   },
   components: {
     Projects
-  }
+  },
+  metaInfo() {
+    return {
+      title: "Solar projects",
+      meta: [
+        {
+          key: 'description',
+          name: 'description',
+          content: 'Solar Consultancy and solutions for Comercial, Residential, Farming and Agricultural businesses'
+        }
+      ]
+    }
+  },
 };
 </script>

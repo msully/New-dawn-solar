@@ -37,10 +37,6 @@ import InTouch from "../components/InTouch";
 export default {
   components: {
     InTouch
-  },
-  metaInfo: {
-    title: "Contact us",
-    description: "Contact New Dawn Solar for to discuss your solar project. Just fill in the form below and one of our team members will contact you."
   }
 };
 </script>

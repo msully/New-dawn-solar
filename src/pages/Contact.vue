@@ -203,6 +203,18 @@ export default {
       formData: {}
     };
   },
+  metaInfo() {
+    return {
+      title: "New Dawn Solar",
+      meta: [
+        {
+          key: 'description',
+          name: 'description',
+          content: 'Contact New Dawn Solar to discuss your Solar project.'
+        }
+      ]
+    }
+  },
   methods: {
     encode(data) {
       return Object.keys(data)
