@@ -51,7 +51,6 @@
                 </span>
                 <span class="ml-3">
                   Mon - Fri: 8:00 - 17:00<br>
-                  Closed on Weekends
                 </span>
               </a>
             </li>
