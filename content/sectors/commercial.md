@@ -22,7 +22,7 @@ benefits_list:
     - heading: Protect your business from power shortages
       text: >-
         Generate and store your own energy, reduce reliance on ESCOM and protect
-        your business from potential rationing and brownouts.
+        your business from potential rationing and infrastructure failure.
     - heading: Secure your future energy supply
       text: >-
         Pre-purchase energy at a fixed unit price, forecast your long-term
