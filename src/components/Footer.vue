@@ -79,7 +79,7 @@
                   </svg>
                 </span>
                 <span class="ml-3">
-                  harvey@newdawnsolar.co.za
+                  enquiries@newdawnsolar.co.za
                 </span>
               </a>
             </li>
