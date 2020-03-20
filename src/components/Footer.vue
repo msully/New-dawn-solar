@@ -65,7 +65,7 @@
                   </svg>
                 </span>
                 <span class="ml-3">
-                  0825606631
+                  <a href="tel:0825606631">0825606631</a>
                 </span>
               </a>
             </li>
