@@ -1,6 +1,6 @@
 ---
 title: Residential
-heading: SOLAR SOLUTIONS FOR THE HOMESTEAD
+heading: SOLAR SOLUTIONS FOR THE HOME
 date: 2019-11-29T13:05:06.556Z
 cover_image: /images/uploads/residential-solar-panels-installation.jpg
 description: >-
