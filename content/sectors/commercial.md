@@ -18,10 +18,10 @@ benefits_list:
     - heading: Significantly reduce business overheads
       text: >-
         Generate and store free, clean energy on-site and improve your bottom
-        line with up to 100% savings on energy costs.
+        line with savings on energy costs.
     - heading: Protect your business from power shortages
       text: >-
-        Generate and store your own energy, reduce reliance on ESCOM and protect
+        Generate and store your own energy, reduce reliance on Eskom and protect
         your business from potential rationing and infrastructure failure.
     - heading: Secure your future energy supply
       text: >-
@@ -31,9 +31,8 @@ benefits_list:
     - heading: Achieve a healthy ROI
       text: >-
         A typical commercial solar panel system will provide free energy for
-        more than 25 years, achieve returns of more than 12% per annum and pay
-        back installation costs within 4-5 years for grid tied and 6-8 years for
-        off-grid.
+        more than 25 years and payback installation costs within 4-5 years for
+        grid-tied and 6-8 years for off-grid.
     - heading: Save the planet and our environment
       text: >-
         Utilise clean, renewable energy to offset your corporate carbon
