@@ -10,21 +10,21 @@ description: >-
 ---
 New DawnSolar Energy (Pty) set up as an Energy Developer in response to the need for a specialist role like this and based on the complementary skills of the company management. 
 
-## In our Company we have:
+## Our team
 
 ### **Rennie Anderson**
 
 A Lawyer as Commercial Director with extensive commercial experience in property, staff evaluation & management.
 
-### **Ian Pardy** 
+### **Ian Pardy**
 
 Technical Director with many years of experience in Energy evaluation, planning , sizing and project managing Energy schemes.
 
-### **Harvey Anderson** 
+### **Harvey Anderson**
 
 Economist and ex-farmer as Director responsible for growing the business in the farming & Agricultural processing sectors.
 
-## The Solar industry and the services we offer
+## The Services we offer
 
 The Solar industry is set up with Specialist Contractors who design, procure, install and commission solar schemes. These companies are known as Solar EPC’s. As Developers we interface between the client and EPC to help with:
 
