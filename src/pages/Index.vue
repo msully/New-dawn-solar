@@ -149,7 +149,7 @@
                   />
                 </svg>
               </div>
-              <h4 class="text-xl font-bold mt-4">Residetial</h4>
+              <h4 class="text-xl font-bold mt-4">Residential</h4>
               <p class="mt-1">Solar for Developers and home owners</p>
               <div class="p-2 mt-4">
                 <g-link
