@@ -23,7 +23,7 @@ benefits_list:
     - heading: Significantly reduce business overheads
       text: >-
         Generate and store free, clean energy on-site and improve your bottom
-        line with up to 100% savings on your electricity bills.
+        line savings on your electricity bills.
     - heading: Secure your future energy
       text: >-
         Pre-purchase electricity at a fixed unit price, forecast your long-term
