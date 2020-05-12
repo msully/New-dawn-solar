@@ -122,7 +122,6 @@ collections:
                 { label: "Quote", name: "quote", widget: "text" },
                 { label: "Author", name: "author", widget: "text" },
                 { label: "Author image", name: "image", widget: "image" },
-                { label: "Body", name: "body", widget: "markdown" },
               ],
           }
           - {
