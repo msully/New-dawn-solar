@@ -112,6 +112,19 @@ collections:
                   { label: "Image Alt text", name: "alt", widget: "text" },
                 ],
             }
+
+          - {
+            label: "Section - Quote",
+            name: "section_quote",
+            widget: "object",
+            fields:
+              [
+                { label: "Quote", name: "quote", widget: "text" },
+                { label: "Author", name: "author", widget: "text" },
+                { label: "Author image", name: "image", widget: "image" },
+                { label: "Body", name: "body", widget: "markdown" },
+              ],
+          }
           - {
               label: "Section - Solar",
               name: "section_solar",
