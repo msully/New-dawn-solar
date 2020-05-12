@@ -16,13 +16,19 @@ New DawnSolar Energy (Pty) set up as an Energy Developer in response to the need
 
 A Lawyer as Commercial Director with extensive commercial experience in property, staff evaluation & management.
 
+Sales call:  **083 656 1804**
+
 ### **Ian Pardy**
 
 Technical Director with many years of experience in Energy evaluation, planning , sizing and project managing Energy schemes.
 
+Engineering call:  **083 257 7773**
+
 ### **Harvey Anderson**
 
 Economist and ex-farmer as Director responsible for growing the business in the farming & Agricultural processing sectors.
+
+Residential Projects call: [](tel:0825606631) **082 560 6631**
 
 ## The Services we offer
 
