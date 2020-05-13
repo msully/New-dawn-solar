@@ -40,7 +40,7 @@ The Solar industry is set up with Specialist Contractors who design, procure, in
 * Assessing feasibilities and advising on financing (where required)
 * Tax planning
 * Selecting and appointing the Solar EPC
-* Eensuring the appointed EPC installs and commissions the project in terms of the contract and meets HSE compliance
+* Ensuring the appointed EPC installs and commissions the project in terms of the contract and meets HSE compliance
 
 Solar Energy is a relatively new concept for most Property owners and the Development function we provide is to give the owner surety and advice that they are getting value in the solution provided and are getting a scheme that is properly designed and functional for the purpose required.
 
