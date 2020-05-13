@@ -45,7 +45,7 @@ benefits_list:
   heading: BENEFITS AT A GLANCE
   subheading: Reducing business overheads and improving sustainability
 ---
-Many business across South Africa have benifited from their investment in Solar Energy. This is made a reality by the savings experianced once equipment is paid for reflected in a substantial improvement to the Business bottom line, because a Solar system requires very little maintenance over time.
+Many businesses across South Africa have benifited from their investment in Solar Energy. This is made a reality by the savings experianced once equipment is paid for reflected in a substantial improvement to the Business bottom line, because a Solar system requires very little maintenance over time.
 
 ### Interested or would like more information?
 
