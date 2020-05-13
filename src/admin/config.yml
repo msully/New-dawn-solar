@@ -104,7 +104,7 @@ collections:
         fields: # The fields for each document, usually in front matter
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Date", name: "date", widget: "datetime" }
-          - { label: "Description", name: "description", widget: "markdown" required: false }
+          - { label: "Description", name: "description", widget: "markdown", required: false }
           - {
               label: "Section - Banner",
               name: "section_banner",
