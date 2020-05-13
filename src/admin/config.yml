@@ -80,7 +80,18 @@ collections:
           required: false,
         }
       - { label: "Image Alt text", name: "alt", widget: "text" }
-      - { label: "Description", name: "description", widget: "markdown" } 
+      - { label: "Description", name: "description", widget: "markdown" }
+      - {
+          label: "Team",
+          name: "team",
+          widget: "list",
+          fields:
+            [
+              { label: "Profile image", name: "image", widget: "image" },
+              { label: "Heading", name: "heading", widget: "text" },
+              { label: "Bio", name: "bio", widget: "markdown" },
+            ],
+        } 
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "data"
     label: "Landing pages"
@@ -93,7 +104,7 @@ collections:
         fields: # The fields for each document, usually in front matter
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Date", name: "date", widget: "datetime" }
-          - { label: "Description", name: "description", widget: "markdown" }
+          - { label: "Description", name: "description", widget: "markdown" required: false }
           - {
               label: "Section - Banner",
               name: "section_banner",
