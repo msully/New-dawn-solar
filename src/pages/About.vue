@@ -12,7 +12,7 @@
             <h1 class="text-3xl leading-tight font-bold mt-4 mb-4">{{ $page.about.title }}</h1>
             <div class="markdown mb-6" v-html="$page.about.description"></div>
             <div class="w-full border-b border-gray-400">
-            <h2 class="text-2xl pb-2">Our team</h2>
+            <h2 class="text-2xl pb-2">{{ $page.about.team_title}}</h2>
             </div>
             <div class="md:flex mt-12 mb-12 md:-mx-4">
               <div v-for="item in $page.about.team" :key="item.id" class="md:px-4 md:w-1/4">
@@ -52,6 +52,7 @@ query	{
     cover_image
     alt
     content
+    team_title
     
     team{
       image
