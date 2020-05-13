@@ -7,6 +7,22 @@ description: >-
   New DawnSolar Energy (Pty) set up as an Energy Developer in response to the
   need for a specialist role like this and based on the complementary skills of
   the company management.
+team:
+  - bio: >-
+      A Lawyer as Commercial Director with extensive commercial experience in
+      property, staff evaluation & management.
+    heading: Rennie Anderson
+    image: /images/uploads/Rennie_Anderson.png
+  - bio: >-
+      Economist and ex-farmer as Director responsible for growing the business
+      in the farming & Agricultural processing sectors.
+    heading: Harvey Anderson
+    image: /images/uploads/user-profile-placeholder.png
+  - bio: >-
+      Technical Director with many years of experience in Energy evaluation,
+      planning , sizing and project managing Energy schemes.
+    heading: Ian Pardy
+    image: /images/uploads/user-profile-placeholder.png
 ---
 New DawnSolar Energy (Pty) set up as an Energy Developer in response to the need for a specialist role like this and based on the complementary skills of the company management. 
 
