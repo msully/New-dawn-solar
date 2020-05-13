@@ -17,7 +17,7 @@ team:
       Economist and ex-farmer as Director responsible for growing the business
       in the farming & Agricultural processing sectors.
     heading: Harvey Anderson
-    image: /images/uploads/user-profile-placeholder.png
+    image: /images/uploads/Harvey_Anderson.png
   - bio: >-
       Technical Director with many years of experience in Energy evaluation,
       planning , sizing and project managing Energy schemes.
