@@ -7,6 +7,7 @@ description: >-
   New DawnSolar Energy (Pty) set up as an Energy Developer in response to the
   need for a specialist role like this and based on the complementary skills of
   the company management.
+team_title: Our Management Team
 team:
   - bio: >-
       A Lawyer as Commercial Director with extensive commercial experience in
