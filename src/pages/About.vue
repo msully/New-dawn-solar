@@ -10,6 +10,31 @@
         <div class="flex flex-col lg:flex-row">
           <div class="w-full lg:px-8">
             <h1 class="text-3xl leading-tight font-bold mt-4 mb-4">{{ $page.about.title }}</h1>
+            <div class="markdown mb-6" v-html="$page.about.description"></div>
+            <div class="w-full border-b border-gray-400">
+            <h2 class="text-2xl pb-2">Our team</h2>
+            </div>
+            <div class="md:flex mt-12 mb-12 md:-mx-4">
+              <div v-for="item in $page.about.team" :key="item.id" class="md:px-4 md:w-1/4">
+                <div class="bg-white rounded border border-gray-300">
+                  
+                    <g-image
+                      :src="item.image"
+                      :alt="item.heading"
+                      class="w-full h-48 object-cover"
+                    />
+               
+                  <div class="p-4">
+                    <div class="flex items-center text-sm">
+                      <span class="text-lg text-bold text-gray-900 my-2">{{ item.heading }}</span>
+                    </div>
+                    <p class="text-gray-600 mt-1">{{item.bio}}</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+
             <div class="markdown" v-html="$page.about.content"></div>
           </div>
         </div>
@@ -27,6 +52,12 @@ query	{
     cover_image
     alt
     content
+    
+    team{
+      image
+      heading
+      bio
+    }
   }
 }
 </page-query>
