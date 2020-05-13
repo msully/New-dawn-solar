@@ -5,7 +5,7 @@
     <div class="md:flex md:items-center md:justify-center">
       <h2 class="text-xl font-bold text-white">
         Get in touch with us today!
-        <br class="block md:hidden" />Call us on: 0825606631
+        <br class="block md:hidden" />Call us on: 083 656 1804
       </h2>
       <a
         href="/contact"

@@ -43,12 +43,16 @@
           </div>
         </div>
         <div class="relative z-10 h-100 bg-orange-400 -mt-10">
-          <svg class="fill-current text-white hidden md:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill-opacity="1" d="M0,224L1440,32L1440,320L0,320Z"></path>
+          <svg
+            class="fill-current text-white hidden md:block"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 320"
+          >
+            <path fill-opacity="1" d="M0,224L1440,32L1440,320L0,320Z" />
           </svg>
-      </div>
+        </div>
       </section>
-      
+
       <section class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-10 bg-white">
         <div class="md:flex md:flex-wrap text-center md:-mx-4 -mt-40 md:-mt-48">
           <div class="md:w-1/2 md:px-4 lg:w-1/3">
@@ -165,6 +169,37 @@
         </div>
       </section>
     </div>
+    
+    <!-- Start Solar quote -->
+    <section class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:pt-6">
+    <div class="max-w-md w-full md:max-w-full md:flex">
+      <div
+        class="h-48 md:h-auto md:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+        style="background-image: url('/images/uploads/solar_installation-01.jpg')"
+        title="Solar installation"
+      ></div>
+      <div
+        class="shadow-lg border-r border-b border-l border-gray-200 lg:border-l-0 lg:border-t lg:border-gray-200 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
+      >
+        <div class="mb-8">
+          <div class="text-gray-900 font-bold text-xl mb-2">Go Green</div>
+          <p class="text-gray-700 text-base">{{ home.section_quote.quote }}</p>
+        </div>
+        <div class="flex items-center">
+          <g-image
+            class="w-10 h-10 rounded-full mr-4"
+            :src="home.section_quote.image"
+            alt="Avatar of Rennie Anderson"
+          />
+          <div class="text-sm">
+            <p class="text-gray-900 leading-none">{{ home.section_quote.author }}</p>
+            <p class="text-gray-600">Comercial Director</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- End Solar quote -->
 
     <section class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:pt-6 lg:pb-24">
       <div class="flex flex-col lg:flex-row lg:-mx-8">
@@ -202,7 +237,7 @@
     </section>
     <!-- End How it works -->
 
-      <!-- <Projects v-if="$page.projects.edges" :projects="$page.projects.edges" :path="this.$route.path" /> -->
+    <!-- <Projects v-if="$page.projects.edges" :projects="$page.projects.edges" :path="this.$route.path" /> -->
 
     <!-- Start partners -->
     <section class="relative bg-gray-200 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-24">
@@ -225,7 +260,7 @@
       <div class="md:flex md:items-center md:justify-center">
         <h2 class="text-xl font-bold text-white">
           Get in touch with us today!
-          <br class="block md:hidden" />Call us on: 0825606631
+          <br class="block md:hidden" />Call us on: 083 656 1804
         </h2>
         <a
           class="inline-block font-semibold px-4 py-2 text-gray-900 bg-white hover:bg-orange-400 border border-orange-600 rounded mt-6 md:mt-0 md:ml-6"

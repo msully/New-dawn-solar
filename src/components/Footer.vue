@@ -64,7 +64,35 @@
                   </svg>
                 </span>
                 <span class="ml-3">
-                  <a href="tel:0825606631">0825606631</a>
+                  <a href="tel:083 656 1804"><strong>Sales enquiries:</strong> 083 656 1804</a>
+                </span>
+              </a>
+            </li>
+            <li class="mt-4">
+              <a href="#" title="" class="block flex items-center opacity-75 hover:opacity-100">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                      d="M14.594,13.994l-1.66,1.66c-0.577-0.109-1.734-0.471-2.926-1.66c-1.193-1.193-1.553-2.354-1.661-2.926l1.661-1.66 l0.701-0.701L5.295,3.293L4.594,3.994l-1,1C3.42,5.168,3.316,5.398,3.303,5.643c-0.015,0.25-0.302,6.172,4.291,10.766 C11.6,20.414,16.618,20.707,18,20.707c0.202,0,0.326-0.006,0.358-0.008c0.245-0.014,0.476-0.117,0.649-0.291l1-1l0.697-0.697 l-5.414-5.414L14.594,13.994z" />
+                  </svg>
+                </span>
+                <span class="ml-3">
+                  <a href="tel:082 560 6631"><strong>Residential Projects:</strong> 082 560 6631</a>
+                </span>
+              </a>
+            </li>
+            <li class="mt-4">
+              <a href="#" title="" class="block flex items-center opacity-75 hover:opacity-100">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                      d="M14.594,13.994l-1.66,1.66c-0.577-0.109-1.734-0.471-2.926-1.66c-1.193-1.193-1.553-2.354-1.661-2.926l1.661-1.66 l0.701-0.701L5.295,3.293L4.594,3.994l-1,1C3.42,5.168,3.316,5.398,3.303,5.643c-0.015,0.25-0.302,6.172,4.291,10.766 C11.6,20.414,16.618,20.707,18,20.707c0.202,0,0.326-0.006,0.358-0.008c0.245-0.014,0.476-0.117,0.649-0.291l1-1l0.697-0.697 l-5.414-5.414L14.594,13.994z" />
+                  </svg>
+                </span>
+                <span class="ml-3">
+                  <a href="tel:083 257 7773"><strong>Engineering:</strong> 083 257 7773</a>
                 </span>
               </a>
             </li>

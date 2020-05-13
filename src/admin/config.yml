@@ -119,6 +119,7 @@ collections:
             widget: "object",
             fields:
               [
+                { label: "Title", name: "title", widget: "text" },
                 { label: "Quote", name: "quote", widget: "text" },
                 { label: "Author", name: "author", widget: "text" },
                 { label: "Author image", name: "image", widget: "image" },
