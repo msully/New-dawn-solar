@@ -182,7 +182,7 @@
         class="shadow-lg border-r border-b border-l border-gray-200 lg:border-l-0 lg:border-t lg:border-gray-200 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
       >
         <div class="mb-8">
-          <div class="text-gray-900 font-bold text-xl mb-2">Go Green</div>
+          <div class="text-gray-900 font-bold text-xl mb-2">{{ home.section_quote.title}}</div>
           <p class="text-gray-700 text-base">{{ home.section_quote.quote }}</p>
         </div>
         <div class="flex items-center">
@@ -193,7 +193,7 @@
           />
           <div class="text-sm">
             <p class="text-gray-900 leading-none">{{ home.section_quote.author }}</p>
-            <p class="text-gray-600">Comercial Director</p>
+            <p class="text-gray-600">Commercial Director</p>
           </div>
         </div>
       </div>
