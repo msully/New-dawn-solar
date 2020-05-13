@@ -41,6 +41,8 @@ benefits_list:
   heading: BENEFITS AT A GLANCE
   subheading: 'How can solar panels benefit my farm? '
 ---
+Many Farms across South Africa have benifited from their investment in Solar Energy. This is made a reality by the savings experianced once equipment is paid for reflected in a substantial improvement to the Business bottom line, because a Solar system requires very little maintenance over time.
+
 ### Interested or would like more information?
 
 New Dawn Solar is highly experienced in supplying **Agricultural building Solar Solutions**. If you would like more informational along with the facts and the figures on how you can benefit from solar please get in touch by requesting a[ **fee consultation**.](/contact)
