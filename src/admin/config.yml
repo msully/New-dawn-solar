@@ -81,6 +81,7 @@ collections:
         }
       - { label: "Image Alt text", name: "alt", widget: "text" }
       - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Team Section title", name: "team_title", widget: "text" }
       - {
           label: "Team",
           name: "team",
