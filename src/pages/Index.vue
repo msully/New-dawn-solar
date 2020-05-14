@@ -172,14 +172,14 @@
     
     <!-- Start Solar quote -->
     <section class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:pt-6">
-    <div class="max-w-md w-full md:max-w-full md:flex">
+    <div class="max-w-md w-full md:max-w-full md:flex shadow-lg">
       <div
         class="h-48 md:h-auto md:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
         style="background-image: url('/images/uploads/solar_installation-01.jpg')"
         title="Solar installation"
       ></div>
       <div
-        class="shadow-lg border-r border-b border-l border-gray-200 lg:border-l-0 lg:border-t lg:border-gray-200 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
+        class="border-r border-b border-l border-gray-200 lg:border-l-0 lg:border-t lg:border-gray-200 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
       >
         <div class="mb-8">
           <div class="text-gray-900 font-bold text-xl mb-2">{{ home.section_quote.title}}</div>
@@ -187,7 +187,7 @@
         </div>
         <div class="flex items-center">
           <g-image
-            class="w-10 h-10 rounded-full mr-4"
+            class="w-16 h-16 rounded-full mr-4"
             :src="home.section_quote.image"
             alt="Avatar of Rennie Anderson"
           />
