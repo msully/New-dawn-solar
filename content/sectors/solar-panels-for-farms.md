@@ -41,7 +41,7 @@ benefits_list:
   heading: BENEFITS AT A GLANCE
   subheading: 'How can solar panels benefit my farm? '
 ---
-Many Farms across South Africa have benifited from their investment in Solar Energy. This is made a reality by the savings experianced once equipment is paid for reflected in a substantial improvement to the Business bottom line, because a Solar system requires very little maintenance over time.
+Many Farms across South Africa have benefited from their investment in Solar Energy. This is made a reality by the savings experienced once the equipment is paid for reflected in a substantial improvement to the Business bottom line because a Solar system requires very little maintenance over time.
 
 ### Interested or would like more information?
 
