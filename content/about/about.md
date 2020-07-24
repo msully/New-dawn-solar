@@ -23,7 +23,7 @@ team:
       Technical Director with many years of experience in Energy evaluation,
       planning , sizing and project managing Energy schemes.
     heading: Ian Pardy
-    image: /images/uploads/user-profile-placeholder.png
+    image: /images/uploads/ian_pardy.jpeg
 ---
 ## The Services we offer
 
