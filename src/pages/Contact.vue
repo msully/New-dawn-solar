@@ -2,10 +2,14 @@
   <Layout>
     <main class="bg-gray-100">
       <div class="container mx-auto px4 flex-grow">
-        <article class="relative px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-48">
+        <article
+          class="relative px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-48"
+        >
           <div class="w-full flex">
             <!-- Col -->
-            <div class="w-full h-auto bg-gray-400 hidden lg:block lg:w-1/2 bg-cover rounded-l-lg">
+            <div
+              class="w-full h-auto bg-gray-400 hidden lg:block lg:w-1/2 bg-cover rounded-l-lg"
+            >
               <img
                 src="../images/solar-field.jpeg"
                 alt="Farming beifiting from Solar"
@@ -13,7 +17,9 @@
               />
             </div>
             <!-- Col -->
-            <div class="w-full lg:w-1/2 bg-white p-5 rounded-lg lg:rounded-l-none">
+            <div
+              class="w-full lg:w-1/2 bg-white p-5 rounded-lg lg:rounded-l-none"
+            >
               <div class="flex flex-col lg:flex-row mt-6 md:mt24">
                 <div class="overflow-x-hidden">
                   <div class="contact-me bg-background-secondary pt-16">
@@ -30,8 +36,10 @@
                       </div>
 
                       <p class="mb-12">
-                        Keen to get started with solar? Maybe you just want to know a little more about solar?.
-                        Just fill in the form below and one of our team members will contact you for a chat.
+                        Keen to get started with solar? Maybe you just want to
+                        know a little more about solar?. Just fill in the form
+                        below and one of our team members will contact you for a
+                        chat.
                       </p>
                       <div class="text-lg sm:text-lg mb-16">
                         <form
@@ -54,7 +62,8 @@
                               <label
                                 class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                                 for="grid-first-name"
-                              >First Name</label>
+                                >First Name</label
+                              >
                               <input
                                 class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                                 id="grid-first-name"
@@ -69,7 +78,8 @@
                               <label
                                 class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                                 for="grid-last-name"
-                              >Last Name</label>
+                                >Last Name</label
+                              >
                               <input
                                 class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                                 id="grid-last-name"
@@ -84,7 +94,8 @@
                               <label
                                 class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                                 for="grid-email"
-                              >Email Address</label>
+                                >Email Address</label
+                              >
                               <input
                                 class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                                 id="grid-email"
@@ -99,7 +110,8 @@
                               <label
                                 class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                                 for="grid-phone"
-                              >Phone number</label>
+                                >Phone number</label
+                              >
                               <input
                                 class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                                 id="grid-phone"
@@ -110,15 +122,13 @@
                               />
                             </div>
                           </div>
-
-                          </div>
-                          </div>
                           <div class="flex flex-wrap -mx-3 mb-6">
                             <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                               <label
                                 class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                                 for="grid-city"
-                              >City</label>
+                                >City</label
+                              >
                               <input
                                 class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                                 id="grid-city"
@@ -133,7 +143,8 @@
                               <label
                                 class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                                 for="grid-postcode"
-                              >Postcode</label>
+                                >Postcode</label
+                              >
                               <input
                                 class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                                 id="grid-postcode"
@@ -150,7 +161,8 @@
                               <label
                                 class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                                 for="grid-options"
-                              >How can we help?</label>
+                                >How can we help?</label
+                              >
 
                               <div class="relative">
                                 <select
@@ -163,7 +175,9 @@
                                   <option>A commercial building</option>
                                   <option>A new home build</option>
                                   <option>An existing home</option>
-                                  <option>I'd like to go completely off-grid</option>
+                                  <option>
+                                    I'd like to go completely off-grid
+                                  </option>
                                   <option>None of the above</option>
                                 </select>
                                 <div
@@ -188,7 +202,8 @@
                               <label
                                 class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                                 for="message"
-                              >Message</label>
+                                >Message</label
+                              >
 
                               <textarea
                                 id="message"
@@ -208,11 +223,18 @@
                                 class="shadow bg-green-500 hover:bg-green-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
                                 type="submit"
                                 aria-label="Send"
-                              >Send</button>
+                              >
+                                Send
+                              </button>
                             </div>
                           </div>
 
-                          <p>New Dawn Solar will use your information to contact you from time to time about our products and services. You may unsubscribe from these communications at any time.</p>
+                          <p>
+                            New Dawn Solar will use your information to contact
+                            you from time to time about our products and
+                            services. You may unsubscribe from these
+                            communications at any time.
+                          </p>
                         </form>
                       </div>
                     </div>
@@ -231,7 +253,7 @@
 export default {
   data() {
     return {
-      formData: {}
+      formData: {},
     };
   },
   metaInfo() {
@@ -239,18 +261,18 @@ export default {
       title: "New Dawn Solar",
       meta: [
         {
-          key: 'description',
-          name: 'description',
-          content: 'Contact New Dawn Solar to discuss your Solar project.'
-        }
-      ]
-    }
+          key: "description",
+          name: "description",
+          content: "Contact New Dawn Solar to discuss your Solar project.",
+        },
+      ],
+    };
   },
   methods: {
     encode(data) {
       return Object.keys(data)
         .map(
-          key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+          (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
         )
         .join("&");
     },
@@ -258,13 +280,14 @@ export default {
       fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: this.encode({ "form-name": e.target.getAttribute("name"),
-        ...this.formData
-        })
+        body: this.encode({
+          "form-name": e.target.getAttribute("name"),
+          ...this.formData,
+        }),
       })
         .then(() => this.$router.push("/"))
-        .catch(error => alert(error));
-    }
-  }
+        .catch((error) => alert(error));
+    },
+  },
 };
 </script>
