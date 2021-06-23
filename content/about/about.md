@@ -3,27 +3,19 @@ title: New Dawn Solar
 date: 2020-01-13T00:00:00.000Z
 cover_image: /images/uploads/solar_installation-01.jpg
 alt: Installation team installing a solar system.
-description: >-
-  New DawnSolar Energy (Pty) set up as an Energy Developer in response to the
-  need for a specialist role like this and based on the complementary skills of
-  the company management.
+description: New DawnSolar Energy (Pty) set up as an Energy Developer in
+  response to the need for a specialist role like this and based on the
+  complementary skills of the company management.
 team_title: Our Management Team
 team:
-  - bio: >-
-      A Lawyer as Commercial Director with extensive commercial experience in
+  - bio: A Lawyer as Commercial Director with extensive commercial experience in
       property, staff evaluation & management.
     heading: Rennie Anderson
     image: /images/uploads/Rennie_Anderson.png
-  - bio: >-
-      Economist and ex-farmer as Director responsible for growing the business
-      in the farming & Agricultural processing sectors.
+  - bio: Economist and ex-farmer as Director responsible for growing the business in
+      the farming & Agricultural processing sectors.
     heading: Harvey Anderson
     image: /images/uploads/da8ce8eb-f3cb-44ef-8e85-88fae25d19ee (1).jpg
-  - bio: >-
-      Technical Director with many years of experience in Energy evaluation,
-      planning , sizing and project managing Energy schemes.
-    heading: Ian Pardy
-    image: /images/uploads/ian_pardy.jpeg
 ---
 ## The Services we offer
 
