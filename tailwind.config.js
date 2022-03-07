@@ -1,6 +1,12 @@
 module.exports = {
   mode: "jit",
-  content: ["./src/**/*.{vue,html,md,jsx,js,pug}"],
+  content: [
+    "./src/admin/*.{vue,html,md,jsx,js,pug}",
+    "./src/components/*.{vue,html,md,jsx,js,pug}",
+    "./src/layouts/*.{vue,html,md,jsx,js,pug}",
+    "./src/pages/*.{vue,html,md,jsx,js,pug}",
+    "./src/templates/*.{vue,html,md,jsx,js,pug}",
+  ],
   whitelist: [
     "body",
     "html",

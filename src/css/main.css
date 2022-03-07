@@ -913,10 +913,6 @@ select {
   max-width: 28rem;
 }
 
-.max-w-screen-2xl {
-  max-width: 1536px;
-}
-
 .flex-none {
   flex: none;
 }
