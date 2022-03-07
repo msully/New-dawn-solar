@@ -1,6 +1,6 @@
 <template>
   <!-- Start Projects -->
-  <section class="relative bg-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-24">
+  <section class="relative w-full bg-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-24">
     <div>
       <h1 class="text-3xl leading-tight font-bold">Our Projects</h1>
       <p class="text-gray-600 mt-2 md:max-w-lg">

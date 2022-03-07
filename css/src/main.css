@@ -1,6 +1,6 @@
 @tailwind base;
-
 @tailwind components;
+@tailwind utilities;
 
 .stylistic-quote-mark {
   font-size: 5rem;
@@ -138,5 +138,3 @@
 .vue-typer span.char.custom.typed {
   @apply text-yellow-300;
 }
-
-@tailwind utilities;

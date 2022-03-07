@@ -3,9 +3,9 @@
     <!-- Start Hero -->
     <div class="bg-gray-100">
       <section
-        class="z-0 cover bg-orange-gradient relative bg-blue-600 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 overflow-hidden py-48 flex min-h-screen"
+        class="z-0 cover bg-orange-gradient relative bg-blue-600 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 overflow-hidden py-48 flex min-h-full"
       >
-        <div class="z-0 h-full absolute top-0 left-0">
+        <div class="z-0 h-full w-full absolute top-0 left-0">
           <g-image
             :src="home.section_banner.banner_image"
             :alt="home.section_banner.alt"
@@ -169,7 +169,7 @@
         </div>
       </section>
     </div>
-    
+
     <!-- Start Solar quote -->
     <section class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:pt-6">
     <div class="max-w-md w-full md:max-w-full md:flex shadow-lg">
@@ -274,7 +274,7 @@
 
 <page-query>
 query{
-  projects: allProjects(limit: 3) { 
+  projects: allProjects(limit: 3) {
     edges {
       node {
         title
@@ -313,4 +313,3 @@ export default {
 };
 </script>
 
-  
