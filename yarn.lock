@@ -1538,29 +1538,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gridsome/plugin-google-analytics@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@gridsome/plugin-google-analytics@npm:0.1.1"
+"@gridsome/plugin-google-analytics@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "@gridsome/plugin-google-analytics@npm:0.1.2"
   dependencies:
     vue-analytics: ^5.16.1
-  checksum: fa73398e10165ba8dd45c359e08d8b6e18c7a1fa6f02c8b919e71ff37457de756bb0abda4ef91aea97b7a3914bc40d673df35f7d56bad89a4935cefb7cace4bc
+  checksum: 25fd6401527d58bfa2681ae10b71fc1890cd569257ce886b14c8b9f64cb843448e6342410240a4ac2e4846dfec8a224f3c5f5400a60fa1f91ba979cf6edd91b5
   languageName: node
   linkType: hard
 
-"@gridsome/plugin-sitemap@npm:^0.2.3":
-  version: 0.2.3
-  resolution: "@gridsome/plugin-sitemap@npm:0.2.3"
+"@gridsome/plugin-sitemap@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@gridsome/plugin-sitemap@npm:0.4.0"
   dependencies:
     fs-extra: ^7.0.0
     micromatch: ^3.1.10
     sitemap: ^2.1.0
-  checksum: 7893bb893c7ae011ba0b3fdd3dc039dfa688306c3931fa5b9bbf4302b4bc3625a31bac449c348c949f589c62efc33932f55d54f47efeb1cae7b7955847438901
+  checksum: 96424b0b564dd07208028f15050a9643dbe53c63cac595cf0d3c6922d5f8bbd07d2ed57fdb5218b30ce8f0b16bcf488b220edb88b21f1ce7853d81f14b1385e8
   languageName: node
   linkType: hard
 
-"@gridsome/remark-prismjs@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@gridsome/remark-prismjs@npm:0.3.0"
+"@gridsome/remark-prismjs@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "@gridsome/remark-prismjs@npm:0.5.0"
   dependencies:
     escape-html: ^1.0.3
     hast-util-to-html: ^6.0.2
@@ -1568,7 +1568,7 @@ __metadata:
     prismjs: ^1.15.0
     unist-builder: ^1.0.4
     unist-util-visit: ^1.4.0
-  checksum: feb19c5432e78e56e989009b40cc15f89f43700006c78e91a5dadd16fd90a77e99f69600bfe70b22b20d24895a010fa3238259222cfb9d19c5f5abb06e933a51
+  checksum: e6f37be33a00bb44f1bdc82530699cc8889d5e8f57056dca9e7399170ab15304bd45df0419629af0d3ed53a0c93c68d850bcd4a73917c7ba2204decc6cbc8e8f
   languageName: node
   linkType: hard
 
@@ -3288,15 +3288,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bindings@npm:^1.5.0":
-  version: 1.5.0
-  resolution: "bindings@npm:1.5.0"
-  dependencies:
-    file-uri-to-path: 1.0.0
-  checksum: 65b6b48095717c2e6105a021a7da4ea435aa8d3d3cd085cb9e85bcb6e5773cf318c4745c3f7c504412855940b585bdf9b918236612a1c7a7942491de176f1ae7
-  languageName: node
-  linkType: hard
-
 "bl@npm:^1.0.0":
   version: 1.2.3
   resolution: "bl@npm:1.2.3"
@@ -3970,7 +3961,6 @@ __metadata:
     anymatch: ^2.0.0
     async-each: ^1.0.1
     braces: ^2.3.2
-    fsevents: ^1.2.7
     glob-parent: ^3.1.0
     inherits: ^2.0.3
     is-binary-path: ^1.0.0
@@ -6338,13 +6328,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"file-uri-to-path@npm:1.0.0":
-  version: 1.0.0
-  resolution: "file-uri-to-path@npm:1.0.0"
-  checksum: b648580bdd893a008c92c7ecc96c3ee57a5e7b6c4c18a9a09b44fb5d36d79146f8e442578bc0e173dc027adf3987e254ba1dfd6e3ec998b7c282873010502144
-  languageName: node
-  linkType: hard
-
 "filename-reserved-regex@npm:^2.0.0":
   version: 2.0.0
   resolution: "filename-reserved-regex@npm:2.0.0"
@@ -6626,17 +6609,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@npm:^1.2.7":
-  version: 1.2.13
-  resolution: "fsevents@npm:1.2.13"
-  dependencies:
-    bindings: ^1.5.0
-    nan: ^2.12.1
-  checksum: ae855aa737aaa2f9167e9f70417cf6e45a5cd11918e1fee9923709a0149be52416d765433b4aeff56c789b1152e718cd1b13ddec6043b78cdda68260d86383c1
-  conditions: os=darwin
-  languageName: node
-  linkType: hard
-
 "fsevents@npm:~2.1.2":
   version: 2.1.3
   resolution: "fsevents@npm:2.1.3"
@@ -6653,16 +6625,6 @@ __metadata:
   dependencies:
     node-gyp: latest
   checksum: 97ade64e75091afee5265e6956cb72ba34db7819b4c3e94c431d4be2b19b8bb7a2d4116da417950c3425f17c8fe693d25e20212cac583ac1521ad066b77ae31f
-  conditions: os=darwin
-  languageName: node
-  linkType: hard
-
-"fsevents@patch:fsevents@^1.2.7#~builtin<compat/fsevents>":
-  version: 1.2.13
-  resolution: "fsevents@patch:fsevents@npm%3A1.2.13#~builtin<compat/fsevents>::version=1.2.13&hash=18f3a7"
-  dependencies:
-    bindings: ^1.5.0
-    nan: ^2.12.1
   conditions: os=darwin
   languageName: node
   linkType: hard
@@ -7110,7 +7072,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql-compose@npm:^7.3.0":
+"graphql-compose@npm:7.20.1":
   version: 7.20.1
   resolution: "graphql-compose@npm:7.20.1"
   dependencies:
@@ -7208,9 +7170,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gridsome@npm:^0.7.20":
-  version: 0.7.20
-  resolution: "gridsome@npm:0.7.20"
+"gridsome@npm:^0.7.23":
+  version: 0.7.23
+  resolution: "gridsome@npm:0.7.23"
   dependencies:
     "@babel/code-frame": ^7.5.5
     "@babel/core": ^7.0.0
@@ -7242,7 +7204,7 @@ __metadata:
     fs-extra: ^7.0.1
     globby: ^9.0.0
     graphql: ^14.4.2
-    graphql-compose: ^7.3.0
+    graphql-compose: 7.20.1
     graphql-playground-middleware-express: ^1.7.12
     hash-sum: ^1.0.2
     hirestime: ^3.2.1
@@ -7294,7 +7256,7 @@ __metadata:
     yaml-loader: ^0.5.0
   bin:
     gridsome: bin/gridsome.js
-  checksum: b73b60e9d94080f96e092052df0ecf60c87574397455c9cabbcee301ff62145286b6f1a85a666212ff0e845d8ff556129a140ea96fc6f6139aebf11febba76cc
+  checksum: 7693669237559f9af6453e2c46ec8586a926b38e38f6eb56ca57622eb6b04d19d5a6b42adbae5c732e41c5e0f586b6247de3238e4dcecb666f27c58307654c9b
   languageName: node
   linkType: hard
 
@@ -10434,15 +10396,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nan@npm:^2.12.1":
-  version: 2.14.1
-  resolution: "nan@npm:2.14.1"
-  dependencies:
-    node-gyp: latest
-  checksum: b6692edb0a37a7e85f14a2cdb71ef467c00df17e56d8738746984c0219f36494d0d826094aaa1c58ef971ea63e58e2019b6af72cb03b986d38b9821779878824
-  languageName: node
-  linkType: hard
-
 "nanoid@npm:^3.3.1":
   version: 3.3.1
   resolution: "nanoid@npm:3.3.1"
@@ -11152,9 +11105,9 @@ __metadata:
   resolution: "newdawnsolar-gridsome@workspace:."
   dependencies:
     "@fullhuman/postcss-purgecss": ^1.3.0
-    "@gridsome/plugin-google-analytics": ^0.1.1
-    "@gridsome/plugin-sitemap": ^0.2.3
-    "@gridsome/remark-prismjs": ^0.3.0
+    "@gridsome/plugin-google-analytics": ^0.1.2
+    "@gridsome/plugin-sitemap": ^0.4.0
+    "@gridsome/remark-prismjs": ^0.5.0
     "@gridsome/source-filesystem": ^0.6.2
     "@gridsome/transformer-remark": ^0.6.4
     "@tailwindcss/aspect-ratio": ^0.4.0
@@ -11162,11 +11115,11 @@ __metadata:
     "@tailwindcss/typography": ^0.5.2
     autoprefixer: ^10.4.2
     cookieconsent: 3
-    gridsome: ^0.7.20
+    gridsome: ^0.7.23
     gridsome-plugin-netlify-cms: ^1.0.9
     netlify-cms: ^2.10.187
     postcss: ^8.4.8
-    tailwindcss: ^3.0.23
+    tailwindcss: latest
     vue-typer: ^1.2.0
   languageName: unknown
   linkType: soft
@@ -15761,7 +15714,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.0.23":
+"tailwindcss@npm:latest":
   version: 3.0.23
   resolution: "tailwindcss@npm:3.0.23"
   dependencies:

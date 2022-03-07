@@ -9,19 +9,19 @@
     "twprod": "NODE_ENV=production npx tailwindcss -i ./src/css/src/main.css -o ./src/css/main.css "
   },
   "dependencies": {
-    "@gridsome/plugin-google-analytics": "^0.1.1",
-    "@gridsome/plugin-sitemap": "^0.2.3",
-    "@gridsome/remark-prismjs": "^0.3.0",
+    "@gridsome/plugin-google-analytics": "^0.1.2",
+    "@gridsome/plugin-sitemap": "^0.4.0",
+    "@gridsome/remark-prismjs": "^0.5.0",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "@tailwindcss/forms": "^0.5.0",
     "@tailwindcss/typography": "^0.5.2",
     "cookieconsent": "3",
-    "gridsome": "^0.7.20",
+    "gridsome": "^0.7.23",
     "gridsome-plugin-netlify-cms": "^1.0.9",
     "netlify-cms": "^2.10.187",
-    "tailwindcss": "^3.0.23",
+    "tailwindcss": "latest",
     "vue-typer": "^1.2.0"
   },
   "devDependencies": {
