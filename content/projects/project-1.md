@@ -1,7 +1,8 @@
 ---
-title: Project 1
-date: 2020-03-17T11:58:26.863Z
+title: A 24 Solr Panel Residential installation
+date: 2022-03-17T11:58:26.863Z
 cover_image: /images/uploads/Rene Frei  Battery Box.JPG
-description: Add a Project Description
+description: 24 PV Solar panels, 8kw Sunsynk invertor and Lithium battery storage system.
 ---
-Add project information here.
+A Natal client wanted a discreet In Roof Solar PV system to work in conjunction with an 8 kw Sunsynk Inverter and Lithium battery storage system. Installed in four days, this 24 panel system spanned multiple small roves providing good coverage. Our Sunsynk Inverter enables residents to limit reliance on Eskom providing scheduled disconnection from the Escom network for part of the day. Our customer, will now benifit from significant savings on power, together with the seamless change over to Solar during load shedding or system failure.
+
