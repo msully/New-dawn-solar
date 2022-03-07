@@ -1,5 +1,5 @@
 ---
-title: A 24 Solr Panel Residential installation
+title: A 24 Solr Panel Residential installation in Victoria Club Pietermaritzburg
 date: 2022-03-17T11:58:26.863Z
 cover_image: /images/uploads/Rene Frei  Battery Box.JPG
 description: 24 PV Solar panels, 8kw Sunsynk invertor and Lithium battery storage system.
