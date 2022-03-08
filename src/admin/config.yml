@@ -20,6 +20,35 @@ collections:
           required: false,
         }
       - { label: "Description", name: "description", widget: "markdown" }
+      - {
+          label: "Image gallery",
+          name: "image_gallery",
+          widget: "object",
+          fields:
+            [
+              {
+                label: "Heading",
+                name: "heading",
+                default: "Image gallery",
+                widget: "string",
+              },
+              { label: "Subheading", name: "subheading", widget: "text" },
+              {
+                label: "Image",
+                name: "image",
+                widget: "list",
+                fields:
+                  [
+                    {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                    }
+                  ],
+              },
+            ],
+        }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "sectors" # Used in routes, e.g., /content/sectors
     label: "Sector" # Used in the UI
@@ -92,7 +121,7 @@ collections:
               { label: "Heading", name: "heading", widget: "text" },
               { label: "Bio", name: "bio", widget: "markdown" },
             ],
-        } 
+        }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "data"
     label: "Landing pages"
