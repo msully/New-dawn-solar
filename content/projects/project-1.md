@@ -15,4 +15,4 @@ galleryImages:
 ---
 A client in Pietermaritzburg wanted a discreet In Roof Solar PV system to work in conjunction with an 8 kw Sunsynk Inverter and Lithium battery storage system. Installed in four days, this 24 panel Solar PV system spanned multiple small rooves providing excellent coverage.
 
-Our Sunsynk Inverter enables residents to limit reliance on Eskom providing scheduled disconnection from the Escom network for part of the day. Our customer, will now benefit from significant savings on power, together with the seamless change over to Solar during load shedding or system failure.
+Our Sunsynk Inverter enables residents to limit reliance on Eskom providing scheduled disconnection from the Escom network for part of the day. Our customer will now benefit from significant savings on power, together with the seamless change over to Solar during load shedding or system failure.
