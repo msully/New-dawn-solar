@@ -4,7 +4,7 @@
     <div>
       <h1 class="text-3xl font-bold leading-tight">Our Projects</h1>
       <p class="mt-2 text-gray-600 md:max-w-5xl">
-        Discover why you should choose to use the sun’s power to energise your home, control your energy costs, save & earn money and do your bit to save the planet. Here at Newdawn Solr, we passionately believe in providing the very best products, prices, quality & service for you! Here is a preview of some of our latest projects.
+        Discover why you should choose to use the sun’s power to energise your home, control your energy costs, save and do your bit to save the planet. Here at Newdawn Solr, we passionately believe in providing the very best products, prices, quality & service for you! Here is a preview of some of our latest projects.
       </p>
       <g-link v-if="path"
         to="/projects"
