@@ -38,11 +38,13 @@
       </div>
     </div>
   </section>
+  <InTouch />
   <!-- end Projects -->
 </template>
 
 
 <script>
+import InTouch from "../components/InTouch";
 export default {
   props: {
     projects: {
