@@ -18,7 +18,7 @@
               <g-image
                 :src="item.image"
                 :alt="item.alt"
-                class="object-cover w-full h-full"
+                class="object-cover w-full h-full rounded-md"
                 />
 
             </li>
