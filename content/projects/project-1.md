@@ -1,6 +1,6 @@
 ---
 title: A 24 Solr Panel Residential installation in Victoria Club Pietermaritzburg
-date: 2022-03-17T11:58:26.863Z
+date: 2022-03-08T07:53:39.802Z
 cover_image: /images/uploads/photo-2022-02-18-16-12-28.jpg
 description: 24 PV Solar panels, 8kw Sunsynk invertor and Lithium battery storage system.
 ---
