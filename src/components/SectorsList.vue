@@ -3,7 +3,7 @@
   <section class="relative px-4 py-24 bg-white sm:px-8 lg:px-16 xl:px-40 2xl:px-64">
     <div>
       <h1 class="text-3xl font-bold leading-tight">Market Sectors we serve</h1>
-      <p class="mt-2 text-gray-600 md:max-w-lg">
+      <p class="mt-2 text-gray-600 md:max-w-5xl">
         Solar Energy is a relatively new concept formost Property owners and the Development function we provide is to give the owner surety and advice that they are getting value in the solution provided and are getting a scheme that is properly designed and functional for the purpose required.
       </p>
     </div>
@@ -39,8 +39,8 @@
         </div>
       </div>
     </div>
-  </section>
   <InTouch />
+  </section>
   <!-- end Sectors -->
 </template>
 

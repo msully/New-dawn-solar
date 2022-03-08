@@ -1890,6 +1890,14 @@ select {
     max-width: 28rem;
   }
 
+  .md\:max-w-7xl {
+    max-width: 80rem;
+  }
+
+  .md\:max-w-5xl {
+    max-width: 64rem;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
