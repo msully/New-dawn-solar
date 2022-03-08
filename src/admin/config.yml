@@ -20,6 +20,7 @@ collections:
           required: false,
         }
       - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown" }
       - {
           label: "Gallery",
           name: "galleryImages",
@@ -30,7 +31,7 @@ collections:
               { label: "Alt text", name: "alt", widget: "text" },
             ],
         }
-      - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "sectors" # Used in routes, e.g., /content/sectors
     label: "Sector" # Used in the UI
     folder: "content/sectors" # The path to the folder where the documents are stored
