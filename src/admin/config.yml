@@ -20,12 +20,16 @@ collections:
           required: false,
         }
       - { label: "Description", name: "description", widget: "markdown" }
-      - label: "Gallery"
-        name: "galleryImages"
-        widget: "list"
-        fields:
-          - { label: Image, name: image, widget: image }
-          - { label: "Alt Text", name: "alt", widget: "string" }
+      - {
+          label: "Gallery",
+          name: "galleryImages",
+          widget: "list",
+          fields:
+            [
+              { label: "Project image", name: "image", widget: "image" },
+              { label: "Alt text", name: "alt", widget: "text" },
+            ],
+        }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "sectors" # Used in routes, e.g., /content/sectors
     label: "Sector" # Used in the UI
