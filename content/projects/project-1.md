@@ -8,5 +8,9 @@ galleryImages:
     alt: Installation team
   - image: /images/uploads/photo-2022-02-18-16-12-26.jpg
     alt: Sunsynk battery bank and inverter
+  - image: /images/uploads/photo-2022-02-18-16-12-24.jpg
+    alt: Small roof installation
+  - image: /images/uploads/photo-2022-02-18-16-12-27.jpg
+    alt: Larger roof surface
 ---
 A Natal client wanted a discreet In Roof Solar PV system to work in conjunction with an 8 kw Sunsynk Inverter and Lithium battery storage system. Installed in four days, this 24 panel system spanned multiple small rooves providing good coverage. Our Sunsynk Inverter enables residents to limit reliance on Eskom providing scheduled disconnection from the Escom network for part of the day. Our customer, will now benefit from significant savings on power, together with the seamless change over to Solar during load shedding or system failure.
