@@ -42,14 +42,6 @@ module.exports = {
       }
     },
     {
-      use: '@gridsome/gridsome-plugin-gtm',
-      options: {
-        id: 'GTM-F6N8XZGJCC',
-        enabled: true,
-        debug: true
-      }
-    },
-    {
       // Create About from Markdown files
       use: "@gridsome/source-filesystem",
       options: {
