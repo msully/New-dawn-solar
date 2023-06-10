@@ -42,7 +42,7 @@ module.exports = {
       }
     },
     {
-      use: 'gridsome-plugin-gtm',
+      use: '@gridsome/gridsome-plugin-gtm',
       options: {
         id: 'GTM-F6N8XZGJCC',
         enabled: true,
